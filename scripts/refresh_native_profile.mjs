@@ -82,7 +82,16 @@ async function renderActivity() {
   } catch (error) {
     console.warn(`Recent activity unavailable: ${error.message}`);
   }
-  const rows = events.slice(0, 5).map((event) => {
+  const refreshSubject = 'chore: refresh native profile record';
+  const relevantEvents = events.filter((event) => {
+    const messages = event.payload?.commits?.map((commit) => commit.message) || [];
+    const isManagedProfileRefresh = event.type === 'PushEvent'
+      && event.repo?.name === profileRepo
+      && messages.length > 0
+      && messages.every((message) => message === refreshSubject);
+    return !isManagedProfileRefresh;
+  });
+  const rows = relevantEvents.slice(0, 5).map((event) => {
     const date = new Date(event.created_at).toISOString().slice(0, 10);
     const repo = clean(event.repo?.name || 'public repository');
     return `| ${date} | ${eventLabel(event)} | [${repo}](https://github.com/${repo}) |`;
