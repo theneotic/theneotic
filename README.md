@@ -24,9 +24,9 @@
 <!-- PROFILE_STATUS:START -->
 > **State:** `BUILDING IN PUBLIC`  
 > **Mode:** `NATIVE / LINKED / COMMIT-REFRESHED`  
-> **Profile source commits:** `33`  
-> **Latest source change:** [`c4945b2`](https://github.com/theneotic/theneotic/commit/c4945b2) — Delete WORKFLOW-COPY-PASTE.md  
-> **Source change recorded at:** `2026-08-21T03:13:08+05:30`  
+> **Profile source commits:** `34`  
+> **Latest source change:** [`c80e78c`](https://github.com/theneotic/theneotic/commit/c80e78c) — Delete UPLOAD-GUIDE.md  
+> **Source change recorded at:** `2026-08-21T03:14:14+05:30`  
 > **Refreshed from:** [main](https://github.com/theneotic/theneotic/commits/main)
 <!-- PROFILE_STATUS:END -->
 
