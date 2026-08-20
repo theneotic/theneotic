@@ -1,68 +1,71 @@
-# THE // NEOTIC
+[README.md](https://github.com/user-attachments/files/31277858/README.md)<p align="center">
+  <img src="./assets/banner-night-ledger.png" alt="THE NEOTIC — Night Ledger, local-first systems, built in public" width="100%" />
+</p>
 
-> **Thoughtful digital tools. Clear interaction. Practical systems.**
+<p align="center">
+  <img src="./assets/hero-night-ledger.png" alt="THE NEOTIC — thoughtful digital tools" width="100%" />
+</p>
 
-I am interested in local-first tools, useful details, and interfaces that make complex decisions feel understandable.
+<p align="center">
+  <a href="https://github.com/theneotic?tab=repositories">EXPLORE REPOSITORIES</a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://github.com/theneotic/Monolith-Vault">MONOLITH VAULT</a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://github.com/theneotic/tight-secure">TIGHT SECURE</a>
+</p>
 
-[Explore repositories](https://github.com/theneotic?tab=repositories) · [Monolith Vault](https://github.com/theneotic/Monolith-Vault) · [Tight Secure](https://github.com/theneotic/tight-secure)
+<br />
 
----
+### A considered approach
 
-## About Me
+> I build local-first tools and calm interfaces for decisions that deserve a clearer signal. The goal is not noise or novelty—it is software that feels deliberate when it matters.
 
-```ts
-const the = {
-  role: "Interface-focused builder",
-  currentlyBuilding: ["Monolith Vault", "thoughtful web experiences"],
-  drawnTo: ["local-first tools", "clear interaction", "useful details"],
-  workingStyle: "calm, practical, and deliberate",
-  principle: "Make the important signal easy to find."
-} as const;
-```
+<p>
+  <code>LOCAL-FIRST</code>&nbsp;&nbsp;
+  <code>INTERACTION DESIGN</code>&nbsp;&nbsp;
+  <code>PRODUCT SYSTEMS</code>&nbsp;&nbsp;
+  <code>USEFUL DETAILS</code>
+</p>
 
-## Selected Work
+<br />
 
-| Project | Focus | Built with |
-|---|---|---|
-| [**Monolith Vault**](https://github.com/theneotic/Monolith-Vault) | A local-first password intelligence workspace with contextual scoring, password-building tools, and accessible motion controls. | TypeScript · React · Vite |
-| [**Tight Secure**](https://github.com/theneotic/tight-secure) | A password-security project in the Monolith Vault project line. | TypeScript |
+### Selected work
 
-## Focus
+<p align="center">
+  <a href="https://github.com/theneotic/Monolith-Vault"><img src="./assets/project-monolith-vault.png" alt="Monolith Vault — TypeScript, React and Vite password intelligence workspace" width="100%" /></a>
+</p>
 
-| Product craft | Practical systems |
-|---|---|
-| I build interfaces that make complex decisions feel understandable, calm, and direct. | I am interested in tools with a real job to do: privacy-aware utilities, media experiences, and reliable everyday workflows. |
+<p align="center">
+  <a href="https://github.com/theneotic/tight-secure"><img src="./assets/project-tight-secure.png" alt="Tight Secure — TypeScript security study" width="100%" /></a>
+</p>
 
-## Working Principles
+<br />
 
-```text
-01  Start with the real use case.
-02  Make the important signal easy to find.
-03  Prefer durable, local-first decisions when possible.
-04  Polish interaction until the tool feels intentional.
-```
+### Activity Console
 
-## Tech Stack
+<p align="center">
+  <img src="./assets/activity-status.png" alt="Activity Console status: Building in Public, Mode Deliberate" width="100%" />
+</p>
 
-**Interface & Web**
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=theneotic&amp;bg_color=080b12&amp;color=9ed3ff&amp;line=a78bfa&amp;point=fb9a7d&amp;area=true&amp;area_color=172344&amp;hide_border=true" alt="Public GitHub activity graph for theneotic" width="100%" />
+</p>
 
-[![TypeScript](https://img.shields.io/badge/TypeScript-0B1120?style=flat-square&logo=typescript&logoColor=8ED0FF)](https://www.typescriptlang.org/docs/)
-[![React](https://img.shields.io/badge/React-0B1120?style=flat-square&logo=react&logoColor=8ED0FF)](https://react.dev/)
-[![Vite](https://img.shields.io/badge/Vite-0B1120?style=flat-square&logo=vite&logoColor=B9A5FF)](https://vite.dev/)
-[![HTML5](https://img.shields.io/badge/HTML5-0B1120?style=flat-square&logo=html5&logoColor=F59E8B)](https://developer.mozilla.org/docs/Web/HTML)
-[![CSS3](https://img.shields.io/badge/CSS3-0B1120?style=flat-square&logo=css3&logoColor=8ED0FF)](https://developer.mozilla.org/docs/Web/CSS)
+<p align="center">
+  <img src="./assets/daily-activity.svg" alt="Daily Activity Console panel — refreshed from public GitHub data when the optional workflow is enabled" width="100%" />
+</p>
 
-**Mobile & Systems**
+<sub>The signal layer is static by design. The graph is live. The final panel is a repository-owned asset that you can choose to refresh once per day.</sub>
 
-[![Kotlin](https://img.shields.io/badge/Kotlin-0B1120?style=flat-square&logo=kotlin&logoColor=D5A7D9)](https://kotlinlang.org/)
-[![Android](https://img.shields.io/badge/Android-0B1120?style=flat-square&logo=android&logoColor=8ED0FF)](https://developer.android.com/)
-[![Shell](https://img.shields.io/badge/Shell-0B1120?style=flat-square&logo=gnu-bash&logoColor=90D8A9)](https://www.gnu.org/software/bash/)
+<br />
+<br />
 
-**Workflow**
+### Selected instruments
 
-[![Git](https://img.shields.io/badge/Git-0B1120?style=flat-square&logo=git&logoColor=F59E8B)](https://git-scm.com/doc)
-[![GitHub](https://img.shields.io/badge/GitHub-0B1120?style=flat-square&logo=github&logoColor=F4F7FF)](https://docs.github.com/)
+<p align="center">
+  <img src="./assets/tech-grid.png" alt="Selected instruments: TypeScript, React, Vite, Web, Kotlin, Android, and Git" width="100%" />
+</p>
 
----
+<br />
 
-<sub>Browse the repositories for work in progress.</sub>
+<sub>IN PROGRESS — BUILDING TOOLS WITH A REAL JOB TO DO.</sub>
