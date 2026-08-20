@@ -1,71 +1,85 @@
-<p align="center">
-  <img src="./assets/banner-night-ledger.png" alt="THE NEOTIC — Night Ledger, local-first systems, built in public" width="100%" />
-</p>
+# THE / NEOTIC
 
-<p align="center">
-  <img src="./assets/hero-night-ledger.png" alt="THE NEOTIC — thoughtful digital tools" width="100%" />
-</p>
+> **Monolith Index** — local-first tools, calm interfaces, and practical security systems.
 
-<p align="center">
-  <a href="https://github.com/theneotic?tab=repositories">EXPLORE REPOSITORIES</a>
-  &nbsp;&nbsp;·&nbsp;&nbsp;
-  <a href="https://github.com/theneotic/Monolith-Vault">MONOLITH VAULT</a>
-  &nbsp;&nbsp;·&nbsp;&nbsp;
-  <a href="https://github.com/theneotic/tight-secure">TIGHT SECURE</a>
-</p>
+[REPOSITORIES](https://github.com/theneotic?tab=repositories) · [MONOLITH VAULT](https://github.com/theneotic/tight-secure) · [PROFILE HISTORY](https://github.com/theneotic/theneotic/commits/main) · [PUBLIC ACTIVITY](https://github.com/theneotic)
+
+`LOCAL-FIRST` · `INTERACTION DESIGN` · `PRODUCT SYSTEMS` · `USEFUL DETAILS`
+
+---
+
+## Active index
+
+| File | Focus | Open |
+|---|---|---|
+| **Monolith Vault** | A password intelligence workspace for contextual strength reading and considered password building. | [Open project repository](https://github.com/theneotic/tight-secure) |
+| **Profile record** | This native Markdown profile, maintained as a public index of current work. | [Open commit history](https://github.com/theneotic/theneotic/commits/main) |
+| **Repository archive** | Public experiments, systems, and work-in-progress notes. | [Explore repositories](https://github.com/theneotic?tab=repositories) |
+
+---
+
+## Live profile record
+
+<!-- PROFILE_STATUS:START -->
+> **State:** `BUILDING IN PUBLIC`  
+> **Mode:** `NATIVE / LINKED / COMMIT-REFRESHED`  
+> **Profile commits:** `Awaiting first refresh`  
+> **Latest change:** `Awaiting first refresh`  
+> **Refreshed from:** [main](https://github.com/theneotic/theneotic/commits/main)
+<!-- PROFILE_STATUS:END -->
+
+The status block updates after a commit reaches this profile repository’s `main` branch. It is plain Markdown, not an image or browser script.
+
+[OPEN PROFILE](https://github.com/theneotic) · [OPEN ACTIVITY](https://github.com/theneotic) · [OPEN HISTORY](https://github.com/theneotic/theneotic/commits/main)
+
+---
+
+## Recent public activity
+
+<!-- PROFILE_ACTIVITY:START -->
+| When (UTC) | Event | Repository |
+|---|---|---|
+| Awaiting first refresh | — | — |
+<!-- PROFILE_ACTIVITY:END -->
+
+This table uses only public GitHub events. Each refresh keeps the five most recent signals as ordinary Markdown links.
+
+---
+
+## Public contribution tempo
+
+<!-- PROFILE_STREAK:START -->
+> **Current public day run:** `Awaiting first refresh`  
+> **Longest public day run:** `Awaiting first refresh`  
+> **Last active day:** `Awaiting first refresh`
+<!-- PROFILE_STREAK:END -->
+
+The tempo is calculated from public contribution days in the previous 365 days. It does not infer private activity.
+
+---
+
+## Direct instruments
+
+[TypeScript](https://www.typescriptlang.org/docs/) · [React](https://react.dev/) · [Vite](https://vite.dev/guide/) · [Web Platform](https://developer.mozilla.org/docs/Web) · [Kotlin](https://kotlinlang.org/docs/home.html) · [Android](https://developer.android.com/docs) · [Git](https://git-scm.com/doc)
+
+---
+
+<details>
+<summary><strong>FIELD NOTES / OPEN CONTROL PANEL</strong></summary>
 
 <br />
 
-### A considered approach
+| Signal | Destination |
+|---|---|
+| Current work | [Monolith Vault repository](https://github.com/theneotic/tight-secure) |
+| Profile record | [Main-branch history](https://github.com/theneotic/theneotic/commits/main) |
+| Public account | [GitHub profile](https://github.com/theneotic) |
+| Repository index | [All public repositories](https://github.com/theneotic?tab=repositories) |
 
-> I build local-first tools and calm interfaces for decisions that deserve a clearer signal. The goal is not noise or novelty—it is software that feels deliberate when it matters.
+This disclosure is native to GitHub Markdown. Open it when you want more context; the main profile remains deliberately compact.
 
-<p>
-  <code>LOCAL-FIRST</code>&nbsp;&nbsp;
-  <code>INTERACTION DESIGN</code>&nbsp;&nbsp;
-  <code>PRODUCT SYSTEMS</code>&nbsp;&nbsp;
-  <code>USEFUL DETAILS</code>
-</p>
+</details>
 
-<br />
+---
 
-### Selected work
-
-<p align="center">
-  <a href="https://github.com/theneotic/Monolith-Vault"><img src="./assets/project-monolith-vault.png" alt="Monolith Vault — TypeScript, React and Vite password intelligence workspace" width="100%" /></a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/theneotic/tight-secure"><img src="./assets/project-tight-secure.png" alt="Tight Secure — TypeScript security study" width="100%" /></a>
-</p>
-
-<br />
-
-### Activity Console
-
-<p align="center">
-  <img src="./assets/activity-status.png" alt="Activity Console status: Building in Public, Mode Deliberate" width="100%" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=theneotic&amp;bg_color=080b12&amp;color=9ed3ff&amp;line=a78bfa&amp;point=fb9a7d&amp;area=true&amp;area_color=172344&amp;hide_border=true" alt="Public GitHub activity graph for theneotic" width="100%" />
-</p>
-
-<p align="center">
-  <img src="./assets/daily-activity.svg" alt="Daily Activity Console panel — refreshed from public GitHub data when the optional workflow is enabled" width="100%" />
-</p>
-
-<sub>The signal layer is static by design. The graph is live. The final panel is a repository-owned asset that you can choose to refresh once per day.</sub>
-
-<br />
-<br />
-
-### Selected instruments
-
-<p align="center">
-  <img src="./assets/tech-grid.png" alt="Selected instruments: TypeScript, React, Vite, Web, Kotlin, Android, and Git" width="100%" />
-</p>
-
-<br />
-
-<sub>IN PROGRESS — BUILDING TOOLS WITH A REAL JOB TO DO.</sub>
+<sub>[IN PROGRESS — BUILDING TOOLS WITH A REAL JOB TO DO. EXPLORE THE WORK →](https://github.com/theneotic?tab=repositories)</sub>
