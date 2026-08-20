@@ -1,3 +1,4 @@
+
 # THE / NEOTIC
 
 > **Monolith Index** — local-first tools, calm interfaces, and practical security systems.
