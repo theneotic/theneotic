@@ -24,8 +24,8 @@
 > **State:** `BUILDING IN PUBLIC`  
 > **Mode:** `NATIVE / LINKED / COMMIT-REFRESHED`  
 > **Profile source commits:** `29`  
-> **Latest source change:** [`9ee4984`](https://github.com/theneotic/theneotic/commit/9ee4984) — chore: refresh native profile record  
-> **Source change recorded at:* `2026-08-20T20:45:16Z`  
+> **Latest source change:** [`3fef80d`](https://github.com/theneotic/theneotic/commit/3fef80d) — fix: make native profile refresh idempotent  
+> **Source change recorded at:** `2026-08-20T20:47:16Z`  
 > **Refreshed from:** [main](https://github.com/theneotic/theneotic/commits/main)
 <!-- PROFILE_STATUS:END -->
 
@@ -41,10 +41,10 @@ The status block updates after a commit reaches this profile repository’s `mai
 | When (UTC) | Event | Repository |
 |---|---|---|
 | 2026-08-20 | Pushed code | [theneotic/theneotic](https://github.com/theneotic/theneotic) |
+| 2026-08-20 | Pushed code | [theneotic/theneotic](https://github.com/theneotic/theneotic) |
 | 2026-08-20 | Starred repository | [theneotic/f1-telemetry-dashboard](https://github.com/theneotic/f1-telemetry-dashboard) |
 | 2026-08-20 | Starred repository | [theneotic/theneotic](https://github.com/theneotic/theneotic) |
 | 2026-08-20 | Public activity | [theneotic/f1-telemetry-dashboard](https://github.com/theneotic/f1-telemetry-dashboard) |
-| 2026-08-20 | Pushed code | [theneotic/theneotic](https://github.com/theneotic/theneotic) |
 <!-- PROFILE_ACTIVITY:END -->
 
 This table uses only public GitHub events. Each refresh keeps the five most recent signals as ordinary Markdown links.
