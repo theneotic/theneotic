@@ -1,0 +1,37 @@
+name: Generate Contribution Snake
+
+on:
+  schedule:
+    - cron: "0 4 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - sub2
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Generate contribution snake SVGs
+        uses: Platane/snk@v3
+        with:
+          github_user_name: theneotic
+          outputs: |
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=64C8FF&color_dots=0B1120,161B22,1F3A4C,2F5E78,64C8FF
+            dist/github-contribution-grid-snake-light.svg?palette=github-light&color_snake=146C94&color_dots=EBEDF0,C6E4ED,8DC7DA,4F9DBA,146C94
+
+      - name: Publish generated assets to output branch
+        uses: crazy-max/ghaction-github-pages@v5
+        with:
+          target_branch: output
+          build_dir: dist
+          keep_history: false
+          author: "theneotic <157010181+theneotic@users.noreply.github.com>"
+          committer: "theneotic <157010181+theneotic@users.noreply.github.com>"
+          commit_message: "chore: refresh contribution trace"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

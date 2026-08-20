@@ -1,9 +1,11 @@
-<h1 align="center">THE / NEOTIC</h1>
+<p align="center"><a href="https://github.com/theneotic"><img src="https://visitor-badge.laobi.icu/badge?page_id=theneotic.theneotic&amp;left_text=VISITS&amp;left_color=0B1120&amp;right_color=64C8FF" alt="Live profile visit count" /></a></p>
+
+<p align="center"><img src="./assets/the-neotic-glyph-wordmark.svg" alt="THE / NEOTIC — Glyph Ledger" width="680" /></p>
 
 <p align="center"><code>&lt;/&gt; Why</code></p>
 
 <p align="center">
-  <a href="https://github.com/theneotic/Monolith-Vault"><img src="https://img.shields.io/badge/OPEN%20WORKSPACE-0B1120?style=for-the-badge&logo=shield&logoColor=FF7A59" alt="Open Monolith Vault workspace" /></a>
+  <a href="https://github.com/theneotic/tight-secure"><img src="https://img.shields.io/badge/OPEN%20WORKSPACE-0B1120?style=for-the-badge&logo=shield&logoColor=FF7A59" alt="Open Monolith Vault workspace" /></a>
   <a href="https://github.com/theneotic?tab=repositories"><img src="https://img.shields.io/badge/BROWSE%20SOURCE-0B1120?style=for-the-badge&logo=git&logoColor=64C8FF" alt="Browse source repositories" /></a>
   <a href="#connect-terminal"><img src="https://img.shields.io/badge/OPEN%20TERMINAL-0B1120?style=for-the-badge&logo=github&logoColor=C9D1D9" alt="Open connection terminal" /></a>
 </p>
@@ -16,13 +18,15 @@
 
 | ID | Workspace | Focus | Open |
 |:--:|---|---|---|
-| `01` | **Monolith Vault** | Password intelligence and contextual strength analysis. | [OPEN →](https://github.com/theneotic/Monolith-Vault) |
+| `01` | **Monolith Vault** | Password intelligence and contextual strength analysis. | [OPEN →](https://github.com/theneotic/tight-secure) |
 | `02` | **Tight Secure** | Security product study and interface experiments. | [OPEN →](https://github.com/theneotic/tight-secure) |
 | `03` | **F1 Telemetry** | Data-led telemetry and visualization work. | [OPEN →](https://github.com/theneotic/f1-telemetry-dashboard) |
 
 ---
 
-## Instrument panel
+## Tech stack / instrument panel
+
+<p align="center"><sub><code>CURATED FROM ACTIVE PUBLIC WORK · EACH INSTRUMENT LINKS TO ITS PRIMARY SOURCE</code></sub></p>
 
 <p align="center"><strong>LANGUAGES</strong></p>
 
@@ -54,12 +58,36 @@
 
 ---
 
+## GitHub signal cards
+
+<p align="center">
+  <a href="https://github.com/theneotic"><img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=theneotic&amp;theme=github_dark" alt="GitHub account statistics for theneotic" width="49%" /></a>
+  <a href="https://github.com/theneotic?tab=repositories"><img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=theneotic&amp;theme=github_dark" alt="Most-used public repository languages for theneotic" width="49%" /></a>
+</p>
+
+<p align="center"><sub><code>LIVE GITHUB READOUT · ACCOUNT SIGNALS + ACTIVE LANGUAGE MIX</code></sub></p>
+
+---
+
+## Featured routes
+
+<p align="center"><sub><code>PROJECT INDEX · PURPOSE-BUILT INTERFACES, OPEN SOURCE, DIRECT ENTRY</code></sub></p>
+
+| Route | System | Primary signal | Direct actions |
+|:--:|---|---|---|
+| `VAULT / 01` | **[Monolith Vault](https://github.com/theneotic/tight-secure)** | Password intelligence, contextual risk reading, and local-first interface work. <br /><img src="https://img.shields.io/badge/TYPESCRIPT-0B1120?style=flat-square&logo=typescript&logoColor=64C8FF" alt="TypeScript" /> | [OPEN REPO →](https://github.com/theneotic/tight-secure) · [VIEW CODE →](https://github.com/theneotic/tight-secure/tree/main) |
+| `RACE / 02` | **[F1 Telemetry Dashboard](https://github.com/theneotic/f1-telemetry-dashboard)** | A telemetry-oriented dashboard for turning racing data into readable visual signal. <br /><img src="https://img.shields.io/badge/HTML-0B1120?style=flat-square&logo=html5&logoColor=FF7A59" alt="HTML" /> | [OPEN REPO →](https://github.com/theneotic/f1-telemetry-dashboard) · [VIEW CODE →](https://github.com/theneotic/f1-telemetry-dashboard/tree/master) |
+
+<p align="center"><sub><code>ALL ROUTES OPEN IN GITHUB · NO PORTFOLIO LAYER BETWEEN THE WORK AND THE SOURCE</code></sub></p>
+
+---
+
 ## Signal board
 
 <p align="center">
   <a href="https://github.com/theneotic"><img src="https://img.shields.io/badge/PUBLIC%20PROFILE-0B1120?style=for-the-badge&logo=github&logoColor=64C8FF" alt="Open public profile" /></a>
   <a href="https://github.com/theneotic?tab=repositories"><img src="https://img.shields.io/badge/REPOSITORY%20ARCHIVE-0B1120?style=for-the-badge&logo=git&logoColor=C9D1D9" alt="Open repository archive" /></a>
-  <a href="https://github.com/theneotic/Monolith-Vault"><img src="https://img.shields.io/badge/ACTIVE%20WORKSPACE-0B1120?style=for-the-badge&logo=shield&logoColor=FF7A59" alt="Open active workspace" /></a>
+  <a href="https://github.com/theneotic/tight-secure"><img src="https://img.shields.io/badge/ACTIVE%20WORKSPACE-0B1120?style=for-the-badge&logo=shield&logoColor=FF7A59" alt="Open active workspace" /></a>
 </p>
 
 <p align="center"><sub><a href="https://github.com/theneotic">LIVE PUBLIC SIGNALS · LINKED TO SOURCE</a></sub></p>
@@ -75,12 +103,26 @@
 |---|---|
 | Profile | [Open theneotic](https://github.com/theneotic) |
 | Repositories | [Browse all work](https://github.com/theneotic?tab=repositories) |
-| Security workspace | [Open Monolith Vault](https://github.com/theneotic/Monolith-Vault) |
+| Security workspace | [Open Monolith Vault](https://github.com/theneotic/tight-secure) |
 | Telemetry workspace | [Open F1 Telemetry](https://github.com/theneotic/f1-telemetry-dashboard) |
 
 <sub>This is a compact profile index. The work is the documentation.</sub>
 
 </details>
+
+---
+
+## Contribution trace
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/theneotic/theneotic/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/theneotic/theneotic/output/github-contribution-grid-snake-light.svg" />
+    <img alt="Animated contribution snake for theneotic" src="https://raw.githubusercontent.com/theneotic/theneotic/output/github-contribution-grid-snake-dark.svg" width="100%" />
+  </picture>
+</p>
+
+<p align="center"><sub><a href="https://github.com/theneotic">CONTRIBUTION TRACE · REFRESHES FROM PUBLIC GITHUB ACTIVITY</a></sub></p>
 
 ---
 

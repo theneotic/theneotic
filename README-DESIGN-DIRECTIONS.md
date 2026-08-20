@@ -43,7 +43,7 @@ The page is a **vertical signal path**: identity command at the top, project rou
 
 ## Signature Elements
 
-1. A native monospace terminal principle line below the name.
+1. A custom editorial technical wordmark above a native monospace terminal principle line.
 2. Uniform dark “command” badges for navigation and technology groups.
 3. Compact numbered project routes in place of a large generic project table.
 
@@ -75,7 +75,11 @@ Headlines are concise system labels. CTAs use explicit verbs and destinations.
 
 ## Wordmark & Logo
 
-The wordmark is plain-text `THE / NEOTIC`, treated as a terminal title rather than a decorative image. Its visual character comes from the surrounding command line and navigation controls, not an unclickable header graphic.
+The wordmark is a single restrained `THE / NEOTIC` identity asset: pale powder-blue editorial lettering, a linear N monogram, and one tiny coral calibration point. It replaces the generic heading without turning the profile into an image-led banner layout.
+
+## Wordmark Generation Review
+
+Two generated wordmark attempts were reviewed locally. Both introduced unwanted scene texture or chroma-green fill rather than a clean transparent identity asset, so neither is approved for the profile. The final local package therefore uses a clean source-controlled SVG wordmark asset in the planned image placement. This is the safer route for the user’s requirement that the identity not look AI-generated: it preserves transparency, precise typography, and the restrained Glyph Ledger palette.
 
 ## Signature Brand Color
 

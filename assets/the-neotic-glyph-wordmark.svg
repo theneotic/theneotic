@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="420" viewBox="0 0 1800 420" role="img" aria-labelledby="title desc">
+  <title id="title">THE / NEOTIC</title>
+  <desc id="desc">A restrained technical editorial wordmark with a linear N monogram and signal-blue details.</desc>
+  <g fill="none" stroke="#E6EDF3" stroke-linecap="square" stroke-linejoin="miter">
+    <path d="M72 314V104L252 314V104" stroke-width="18"/>
+    <path d="M92 314V136L232 286V104" stroke="#64C8FF" stroke-width="7"/>
+  </g>
+  <rect x="304" y="103" width="2" height="212" fill="#30363D"/>
+  <text x="360" y="256" fill="#E6EDF3" font-family="Arial, Helvetica, sans-serif" font-size="116" font-weight="700" letter-spacing="19">THE</text>
+  <text x="730" y="256" fill="#FF7A59" font-family="Arial, Helvetica, sans-serif" font-size="116" font-weight="400">/</text>
+  <text x="820" y="256" fill="#E6EDF3" font-family="Arial, Helvetica, sans-serif" font-size="116" font-weight="700" letter-spacing="19">NEOTIC</text>
+  <line x1="362" y1="298" x2="1462" y2="298" stroke="#30363D" stroke-width="3"/>
+  <circle cx="1478" cy="298" r="6" fill="#64C8FF"/>
+  <text x="364" y="345" fill="#8B949E" font-family="Arial, Helvetica, sans-serif" font-size="22" letter-spacing="6">GLYPH LEDGER · INDEPENDENT SYSTEMS</text>
+</svg>
