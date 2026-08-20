@@ -1,0 +1,38 @@
+<svg width="1200" height="330" viewBox="0 0 1200 330" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title description">
+  <title id="title">THE NEOTIC — GitHub profile</title>
+  <desc id="description">A dark editorial profile header with a geometric monogram, a fine instrument grid, and the words THE NEOTIC.</desc>
+  <defs>
+    <linearGradient id="background" x1="58" y1="34" x2="1130" y2="288" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1120"/>
+      <stop offset="0.5" stop-color="#111C34"/>
+      <stop offset="1" stop-color="#0E1425"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="84" y1="72" x2="1080" y2="242" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8ED0FF"/>
+      <stop offset="0.5" stop-color="#90A8E8"/>
+      <stop offset="1" stop-color="#D5A7D9"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="12" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" stroke="#BED1F6" stroke-opacity="0.07"/>
+      <circle cx="18" cy="18" r="1" fill="#BED1F6" fill-opacity="0.12"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="330" rx="22" fill="url(#background)"/>
+  <rect width="1200" height="330" rx="22" fill="url(#grid)"/>
+  <path d="M-22 280C174 182 238 335 412 231C565 140 678 141 799 207C934 281 1044 206 1235 60" stroke="url(#accent)" stroke-opacity="0.31" stroke-width="1.5"/>
+  <path d="M-36 254C185 155 254 312 413 205C559 107 691 112 814 181C960 264 1049 176 1247 31" stroke="#98C7F4" stroke-opacity="0.13" stroke-width="1" stroke-dasharray="4 8"/>
+  <circle cx="105" cy="165" r="55" stroke="url(#accent)" stroke-width="1.5"/>
+  <circle cx="105" cy="165" r="39" stroke="#B7C7E9" stroke-opacity="0.25" stroke-width="1"/>
+  <path d="M105 122L128 145V185L105 208L82 185V145L105 122Z" fill="url(#accent)" fill-opacity="0.13" stroke="url(#accent)" stroke-width="2" filter="url(#glow)"/>
+  <path d="M105 143L117 155V175L105 187L93 175V155L105 143Z" stroke="#EAF2FF" stroke-width="3"/>
+  <circle cx="105" cy="165" r="4" fill="#EAF2FF"/>
+  <path d="M196 117H1082" stroke="#CDD8F0" stroke-opacity="0.16"/>
+  <path d="M196 226H765" stroke="#CDD8F0" stroke-opacity="0.16"/>
+  <text x="196" y="164" fill="#F4F7FF" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="48" font-weight="700" letter-spacing="10">THE // NEOTIC</text>
+  <text x="198" y="207" fill="#B7C7E9" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" letter-spacing="2.6">THOUGHTFUL TOOLS  ·  CALM INTERFACES  ·  USEFUL SYSTEMS</text>
+  <text x="983" y="274" fill="#B7C7E9" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12" letter-spacing="1.8">EST. IN PUBLIC</text>
+</svg>
