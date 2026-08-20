@@ -1,6 +1,6 @@
 <p align="center"><a href="https://github.com/theneotic"><img src="https://visitor-badge.laobi.icu/badge?page_id=theneotic.theneotic&amp;left_text=VISITS&amp;left_color=0B1120&amp;right_color=64C8FF" alt="Live profile visit count" /></a></p>
 
-<p align="center"><img src="./assets/the-neotic-glyph-wordmark.svg" alt="THE / NEOTIC — Glyph Ledger" width="680" /></p>
+<p align="center"><img src="./assets/the-neotic-glyph-wordmark.svg" alt="THE / NEOTIC — Glyph Ledger" width="980" /></p>
 
 <p align="center"><code>&lt;/&gt; Why</code></p>
 
