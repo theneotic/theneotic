@@ -1,4 +1,4 @@
-[README.md](https://github.com/user-attachments/files/31277858/README.md)<p align="center">
+<p align="center">
   <img src="./assets/banner-night-ledger.png" alt="THE NEOTIC — Night Ledger, local-first systems, built in public" width="100%" />
 </p>
 
