@@ -24,9 +24,9 @@
 <!-- PROFILE_STATUS:START -->
 > **State:** `BUILDING IN PUBLIC`  
 > **Mode:** `NATIVE / LINKED / COMMIT-REFRESHED`  
-> **Profile source commits:** `34`  
-> **Latest source change:** [`c80e78c`](https://github.com/theneotic/theneotic/commit/c80e78c) — Delete UPLOAD-GUIDE.md  
-> **Source change recorded at:** `2026-08-21T03:14:14+05:30`  
+> **Profile source commits:** `40`  
+> **Latest source change:** [`f72add6`](https://github.com/theneotic/theneotic/commit/f72add6) — Merge pull request #1 from theneotic/sub2  
+> **Source change recorded at:** `2026-08-21T03:17:34+05:30`  
 > **Refreshed from:** [main](https://github.com/theneotic/theneotic/commits/main)
 <!-- PROFILE_STATUS:END -->
 
@@ -41,8 +41,8 @@ The status block updates after a commit reaches this profile repository’s `mai
 <!-- PROFILE_ACTIVITY:START -->
 | When (UTC) | Event | Repository |
 |---|---|---|
-| 2026-08-20 | Pushed code | [theneotic/theneotic](https://github.com/theneotic/theneotic) |
-| 2026-08-20 | Pushed code | [theneotic/theneotic](https://github.com/theneotic/theneotic) |
+| 2026-08-20 | Worked on pull request | [theneotic/theneotic](https://github.com/theneotic/theneotic) |
+| 2026-08-20 | Worked on pull request | [theneotic/theneotic](https://github.com/theneotic/theneotic) |
 | 2026-08-20 | Pushed code | [theneotic/theneotic](https://github.com/theneotic/theneotic) |
 | 2026-08-20 | Pushed code | [theneotic/theneotic](https://github.com/theneotic/theneotic) |
 | 2026-08-20 | Pushed code | [theneotic/theneotic](https://github.com/theneotic/theneotic) |
