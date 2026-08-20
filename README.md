@@ -23,9 +23,9 @@
 <!-- PROFILE_STATUS:START -->
 > **State:** `BUILDING IN PUBLIC`  
 > **Mode:** `NATIVE / LINKED / COMMIT-REFRESHED`  
-> **Profile commits:** `29`  
-> **Latest change:** [`9ee4984`](https://github.com/theneotic/theneotic/commit/9ee4984) — chore: refresh native profile record  
-> **Recorded at:** `2026-08-20T20:45:16Z`  
+> **Profile source commits:** `29`  
+> **Latest source change:** [`9ee4984`](https://github.com/theneotic/theneotic/commit/9ee4984) — chore: refresh native profile record  
+> **Source change recorded at:* `2026-08-20T20:45:16Z`  
 > **Refreshed from:** [main](https://github.com/theneotic/theneotic/commits/main)
 <!-- PROFILE_STATUS:END -->
 

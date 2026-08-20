@@ -35,18 +35,26 @@ function replaceSection(content, name, replacement) {
   return content.replace(marker, replacement);
 }
 
+function sourceCommit() {
+  const refreshSubject = 'chore: refresh native profile record';
+  const commits = git(['log', '--format=%H%x1f%s%x1f%cI']).split('\n').filter(Boolean).map((line) => {
+    const [hash, subject, timestamp] = line.split('\x1f');
+    return { hash, subject: clean(subject), timestamp };
+  });
+  const source = commits.find((commit) => commit.subject !== refreshSubject) || commits[0];
+  return { ...source, count: commits.filter((commit) => commit.subject !== refreshSubject).length };
+}
+
 function renderStatus() {
-  const count = git(['rev-list', '--count', 'HEAD']);
-  const shortHash = git(['rev-parse', '--short', 'HEAD']);
-  const subject = clean(git(['log', '-1', '--format=%s']));
-  const timestamp = git(['log', '-1', '--format=%cI']);
+  const source = sourceCommit();
+  const shortHash = source.hash.slice(0, 7);
   return [
     '<!-- PROFILE_STATUS:START -->',
     '> **State:** `BUILDING IN PUBLIC`  ',
     '> **Mode:** `NATIVE / LINKED / COMMIT-REFRESHED`  ',
-    `> **Profile commits:** \`${count}\`  `,
-    `> **Latest change:** [\`${shortHash}\`](https://github.com/${profileRepo}/commit/${shortHash}) — ${subject}  `,
-    `> **Recorded at:** \`${timestamp}\`  `,
+    `> **Profile source commits:** \`${source.count}\`  `,
+    `> **Latest source change:** [\`${shortHash}\`](https://github.com/${profileRepo}/commit/${shortHash}) — ${source.subject}  `,
+    `> **Source change recorded at:** \`${source.timestamp}\`  `,
     `> **Refreshed from:** [main](https://github.com/${profileRepo}/commits/main)`,
     '<!-- PROFILE_STATUS:END -->',
   ].join('\n');
