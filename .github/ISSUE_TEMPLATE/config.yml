@@ -1,5 +1,0 @@
-blank_issues_enabled: false
-contact_links:
-  - name: Browse the guestbook
-    url: https://github.com/theneotic/theneotic/issues?q=is%3Aissue%20label%3Aguestbook-approved
-    about: Read approved public guestbook signatures.
