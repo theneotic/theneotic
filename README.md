@@ -23,8 +23,9 @@
 <!-- PROFILE_STATUS:START -->
 > **State:** `BUILDING IN PUBLIC`  
 > **Mode:** `NATIVE / LINKED / COMMIT-REFRESHED`  
-> **Profile commits:** `Awaiting first refresh`  
-> **Latest change:** `Awaiting first refresh`  
+> **Profile commits:** `28`  
+> **Latest change:** [`3be1a84`](https://github.com/theneotic/theneotic/commit/3be1a84) — feat: add native activity and contribution tempo  
+> **Recorded at:** `2026-08-20T20:45:06Z`  
 > **Refreshed from:** [main](https://github.com/theneotic/theneotic/commits/main)
 <!-- PROFILE_STATUS:END -->
 
@@ -39,7 +40,11 @@ The status block updates after a commit reaches this profile repository’s `mai
 <!-- PROFILE_ACTIVITY:START -->
 | When (UTC) | Event | Repository |
 |---|---|---|
-| Awaiting first refresh | — | — |
+| 2026-08-20 | Pushed code | [theneotic/theneotic](https://github.com/theneotic/theneotic) |
+| 2026-08-20 | Starred repository | [theneotic/f1-telemetry-dashboard](https://github.com/theneotic/f1-telemetry-dashboard) |
+| 2026-08-20 | Starred repository | [theneotic/theneotic](https://github.com/theneotic/theneotic) |
+| 2026-08-20 | Public activity | [theneotic/f1-telemetry-dashboard](https://github.com/theneotic/f1-telemetry-dashboard) |
+| 2026-08-20 | Pushed code | [theneotic/theneotic](https://github.com/theneotic/theneotic) |
 <!-- PROFILE_ACTIVITY:END -->
 
 This table uses only public GitHub events. Each refresh keeps the five most recent signals as ordinary Markdown links.
@@ -49,9 +54,9 @@ This table uses only public GitHub events. Each refresh keeps the five most rece
 ## Public contribution tempo
 
 <!-- PROFILE_STREAK:START -->
-> **Current public day run:** `Awaiting first refresh`  
-> **Longest public day run:** `Awaiting first refresh`  
-> **Last active day:** `Awaiting first refresh`
+> **Current public day run:** `4 days`  
+> **Longest public day run (last 365 days):** `4 days`  
+> **Last active day:** `2026-08-20`
 <!-- PROFILE_STREAK:END -->
 
 The tempo is calculated from public contribution days in the previous 365 days. It does not infer private activity.
