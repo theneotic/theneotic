@@ -29,15 +29,21 @@ const the = {
 } as const;
 ```
 
-## Visual Notes
+## Midnight Desk
+
+<p align="center"><img src="./assets/instruments/ist-clock.svg" alt="Live Indian Standard Time midnight instrument clock" width="100%" /></p>
 
 <p align="center">
-  <a href="https://github.com/theneotic/Monolith-Vault"><img src="./assets/tiles/signal-vault.webp" alt="Abstract star-lock security instrument" width="31%" /></a>
-  <img src="./assets/tiles/interface-study.webp" alt="Abstract interface study with floating modules" width="31%" />
-  <img src="./assets/tiles/sound-archive.webp" alt="Abstract audio archive mechanism" width="31%" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=17&pause=1200&color=A78BFA&center=true&vCenter=true&width=760&lines=TypeScript+%E2%80%A2+React+%E2%80%A2+Vite;Local-first+tools+with+useful+details;Calm+interfaces.+Practical+systems." alt="Animated skill and approach line" />
 </p>
 
-<p align="center"><sub>SECURITY SIGNAL &nbsp;·&nbsp; INTERFACE STUDY &nbsp;·&nbsp; SOUND ARCHIVE</sub></p>
+<p align="center"><sub>LIVE FROM MUMBAI / INDIA &nbsp;·&nbsp; MIDNIGHT INSTRUMENT SERIES</sub></p>
+
+## Contribution Run
+
+<p align="center"><img src="./assets/activity/contribution-run.svg" alt="Animated contribution snake game" width="100%" /></p>
+
+<p align="center"><sub>A small game built from the real contribution graph.</sub></p>
 
 ## Selected work
 
@@ -74,24 +80,31 @@ const the = {
 
 <p align="center"><sub>INTERFACE &amp; WEB</sub></p>
 <p align="center">
-  <img src="https://img.shields.io/badge/TypeScript-0B1120?style=for-the-badge&logo=typescript&logoColor=8ED0FF" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/React-0B1120?style=for-the-badge&logo=react&logoColor=8ED0FF" alt="React" />
-  <img src="https://img.shields.io/badge/Vite-0B1120?style=for-the-badge&logo=vite&logoColor=B9A5FF" alt="Vite" />
-  <img src="https://img.shields.io/badge/HTML5-0B1120?style=for-the-badge&logo=html5&logoColor=F59E8B" alt="HTML5" />
-  <img src="https://img.shields.io/badge/CSS3-0B1120?style=for-the-badge&logo=css3&logoColor=8ED0FF" alt="CSS3" />
+  <a href="https://www.typescriptlang.org/docs/"><img src="https://img.shields.io/badge/TypeScript-0B1120?style=for-the-badge&logo=typescript&logoColor=8ED0FF" alt="TypeScript documentation" /></a>
+  <a href="https://react.dev/"><img src="https://img.shields.io/badge/React-0B1120?style=for-the-badge&logo=react&logoColor=8ED0FF" alt="React documentation" /></a>
+  <a href="https://vite.dev/"><img src="https://img.shields.io/badge/Vite-0B1120?style=for-the-badge&logo=vite&logoColor=B9A5FF" alt="Vite documentation" /></a>
+  <a href="https://developer.mozilla.org/docs/Web/HTML"><img src="https://img.shields.io/badge/HTML5-0B1120?style=for-the-badge&logo=html5&logoColor=F59E8B" alt="HTML documentation" /></a>
+  <a href="https://developer.mozilla.org/docs/Web/CSS"><img src="https://img.shields.io/badge/CSS3-0B1120?style=for-the-badge&logo=css3&logoColor=8ED0FF" alt="CSS documentation" /></a>
 </p>
 
 <p align="center"><sub>MOBILE &amp; SYSTEMS</sub></p>
 <p align="center">
-  <img src="https://img.shields.io/badge/Kotlin-0B1120?style=for-the-badge&logo=kotlin&logoColor=D5A7D9" alt="Kotlin" />
-  <img src="https://img.shields.io/badge/Android-0B1120?style=for-the-badge&logo=android&logoColor=8ED0FF" alt="Android" />
-  <img src="https://img.shields.io/badge/Shell-0B1120?style=for-the-badge&logo=gnu-bash&logoColor=90D8A9" alt="Shell" />
+  <a href="https://kotlinlang.org/"><img src="https://img.shields.io/badge/Kotlin-0B1120?style=for-the-badge&logo=kotlin&logoColor=D5A7D9" alt="Kotlin documentation" /></a>
+  <a href="https://developer.android.com/"><img src="https://img.shields.io/badge/Android-0B1120?style=for-the-badge&logo=android&logoColor=8ED0FF" alt="Android documentation" /></a>
+  <a href="https://www.gnu.org/software/bash/"><img src="https://img.shields.io/badge/Shell-0B1120?style=for-the-badge&logo=gnu-bash&logoColor=90D8A9" alt="Bash documentation" /></a>
 </p>
 
 <p align="center"><sub>WORKFLOW</sub></p>
 <p align="center">
-  <img src="https://img.shields.io/badge/Git-0B1120?style=for-the-badge&logo=git&logoColor=F59E8B" alt="Git" />
-  <img src="https://img.shields.io/badge/GitHub-0B1120?style=for-the-badge&logo=github&logoColor=F4F7FF" alt="GitHub" />
+  <a href="https://git-scm.com/doc"><img src="https://img.shields.io/badge/Git-0B1120?style=for-the-badge&logo=git&logoColor=F59E8B" alt="Git documentation" /></a>
+  <a href="https://docs.github.com/"><img src="https://img.shields.io/badge/GitHub-0B1120?style=for-the-badge&logo=github&logoColor=F4F7FF" alt="GitHub documentation" /></a>
+</p>
+
+## Signals
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=theneotic&show_icons=true&hide_border=true&bg_color=070B14&title_color=BFDBFE&text_color=DCE7FF&icon_color=A78BFA&ring_color=FB8B7A&include_all_commits=true&count_private=true" alt="GitHub statistics for theneotic" height="165" />
+  <img src="https://streak-stats.demolab.com?user=theneotic&hide_border=true&background=070B14&ring=A78BFA&fire=FB8B7A&currStreakLabel=BFDBFE&sideLabels=DCE7FF&dates=94A3B8&currStreakNum=F4F7FF&sideNums=F4F7FF" alt="GitHub contribution streak for theneotic" height="165" />
 </p>
 
 ---
