@@ -1,0 +1,42 @@
+name: Refresh guestbook
+
+on:
+  issues:
+    types: [opened, edited, closed, reopened, labeled, unlabeled]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: read
+
+concurrency:
+  group: guestbook-ledger
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out profile repository
+        uses: actions/checkout@v4
+
+      - name: Synchronize the latest main branch
+        run: git pull --rebase origin main
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: 24
+
+      - name: Refresh approved guestbook signatures
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: node scripts/generate-guestbook.mjs assets/guestbook/recent-signatures.svg
+
+      - name: Commit refreshed guestbook panel
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/guestbook/recent-signatures.svg
+          git diff --cached --quiet || git commit -m "Refresh guestbook ledger"
+          git push origin HEAD:main

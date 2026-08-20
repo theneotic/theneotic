@@ -45,6 +45,20 @@ const the = {
 
 <p align="center"><sub>A small game built from the real contribution graph.</sub></p>
 
+## Guestbook
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=theneotic&label=VISITORS&color=0B1120&style=for-the-badge" alt="Visitor counter" />
+  &nbsp;
+  <a href="https://github.com/theneotic/theneotic/issues/new?template=guestbook.yml"><img src="https://img.shields.io/badge/SIGN%20THE%20GUESTBOOK-0B1120?style=for-the-badge&logo=github&logoColor=A78BFA" alt="Sign the guestbook" /></a>
+  &nbsp;
+  <a href="https://github.com/theneotic/theneotic/issues?q=is%3Aissue%20label%3Aguestbook-approved"><img src="https://img.shields.io/badge/READ%20THE%20LEDGER-0B1120?style=for-the-badge&logo=bookstack&logoColor=BFDBFE" alt="Read approved guestbook notes" /></a>
+</p>
+
+<p align="center"><img src="./assets/guestbook/recent-signatures.svg" alt="Recent approved guestbook signatures" width="100%" /></p>
+
+<p align="center"><sub>Leave a short note through the GitHub form. Notes are displayed here after approval.</sub></p>
+
 ## Selected work
 
 | Project | Focus | Built with |
