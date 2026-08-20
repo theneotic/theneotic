@@ -29,6 +29,16 @@ const the = {
 } as const;
 ```
 
+## Visual Notes
+
+<p align="center">
+  <a href="https://github.com/theneotic/Monolith-Vault"><img src="./assets/tiles/signal-vault.webp" alt="Abstract star-lock security instrument" width="31%" /></a>
+  <img src="./assets/tiles/interface-study.webp" alt="Abstract interface study with floating modules" width="31%" />
+  <img src="./assets/tiles/sound-archive.webp" alt="Abstract audio archive mechanism" width="31%" />
+</p>
+
+<p align="center"><sub>SECURITY SIGNAL &nbsp;·&nbsp; INTERFACE STUDY &nbsp;·&nbsp; SOUND ARCHIVE</sub></p>
+
 ## Selected work
 
 | Project | Focus | Built with |
