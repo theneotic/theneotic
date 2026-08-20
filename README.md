@@ -1,6 +1,6 @@
 <h1 align="center">THE / NEOTIC</h1>
 
-<p align="center"><code>&lt;/&gt; BUILDING USEFUL SYSTEMS · ONE COMMIT AT A TIME</code></p>
+<p align="center"><code>&lt;/&gt; Why</code></p>
 
 <p align="center">
   <a href="https://github.com/theneotic/Monolith-Vault"><img src="https://img.shields.io/badge/OPEN%20WORKSPACE-0B1120?style=for-the-badge&logo=shield&logoColor=FF7A59" alt="Open Monolith Vault workspace" /></a>
