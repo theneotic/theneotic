@@ -23,9 +23,9 @@
 <!-- PROFILE_STATUS:START -->
 > **State:** `BUILDING IN PUBLIC`  
 > **Mode:** `NATIVE / LINKED / COMMIT-REFRESHED`  
-> **Profile source commits:** `30`  
-> **Latest source change:** [`c036bb7`](https://github.com/theneotic/theneotic/commit/c036bb7) — fix: stabilize native activity refresh  
-> **Source change recorded at:** `2026-08-20T20:48:51Z`  
+> **Profile source commits:** `31`  
+> **Latest source change:** [`0ffb89c`](https://github.com/theneotic/theneotic/commit/0ffb89c) — docs: clarify native profile refresh workflow  
+> **Source change recorded at:** `2026-08-20T20:50:15Z`  
 > **Refreshed from:** [main](https://github.com/theneotic/theneotic/commits/main)
 <!-- PROFILE_STATUS:END -->
 
