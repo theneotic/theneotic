@@ -58,18 +58,40 @@
 
 ---
 
-## GitHub signal cards
+## Signal ledger
 
 <p align="center">
   <a href="https://github.com/theneotic"><img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=theneotic&amp;theme=github_dark" alt="GitHub account statistics for theneotic" width="49%" /></a>
   <a href="https://github.com/theneotic?tab=repositories"><img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=theneotic&amp;theme=github_dark" alt="Most-used public repository languages for theneotic" width="49%" /></a>
 </p>
 
-<p align="center"><sub><code>LIVE GITHUB READOUT · ACCOUNT SIGNALS + ACTIVE LANGUAGE MIX</code></sub></p>
+<p align="center"><a href="https://github.com/theneotic"><img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=theneotic&amp;theme=github_dark" alt="GitHub contribution and profile details for theneotic" width="100%" /></a></p>
+
+<p align="center">
+  <a href="https://github.com/theneotic?tab=repositories"><img src="https://img.shields.io/badge/PUBLIC%20REPOS-09-0B1120?style=for-the-badge&logo=github&logoColor=64C8FF" alt="Nine public repositories" /></a>
+  <a href="https://github.com/theneotic/tight-secure"><img src="https://img.shields.io/badge/FEATURED%20SYSTEM-MONOLITH%20VAULT-0B1120?style=for-the-badge&logo=shield&logoColor=FF7A59" alt="Featured system: Monolith Vault" /></a>
+  <a href="https://github.com/theneotic/theneotic/tree/output"><img src="https://img.shields.io/badge/CONTRIBUTION%20TRACE-LIVE-0B1120?style=for-the-badge&logo=githubactions&logoColor=64C8FF" alt="Open live contribution trace output" /></a>
+</p>
+
+<p align="center"><sub><code>LIVE ACCOUNT READOUT · LANGUAGE MIX · CONTRIBUTION DENSITY · OPEN SOURCE SIGNALS</code></sub></p>
 
 ---
 
-## Featured routes
+## Contribution trace
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/theneotic/theneotic/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/theneotic/theneotic/output/github-contribution-grid-snake-light.svg" />
+    <img alt="Animated contribution snake for theneotic" src="https://raw.githubusercontent.com/theneotic/theneotic/output/github-contribution-grid-snake-dark.svg" width="100%" />
+  </picture>
+</p>
+
+<p align="center"><sub><a href="https://github.com/theneotic/theneotic/tree/output">CONTRIBUTION TRACE · GENERATED FROM PUBLIC GITHUB ACTIVITY</a></sub></p>
+
+---
+
+## Featured systems
 
 <p align="center"><sub><code>PROJECT INDEX · PURPOSE-BUILT INTERFACES, OPEN SOURCE, DIRECT ENTRY</code></sub></p>
 
@@ -109,20 +131,6 @@
 <sub>This is a compact profile index. The work is the documentation.</sub>
 
 </details>
-
----
-
-## Contribution trace
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/theneotic/theneotic/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/theneotic/theneotic/output/github-contribution-grid-snake-light.svg" />
-    <img alt="Animated contribution snake for theneotic" src="https://raw.githubusercontent.com/theneotic/theneotic/output/github-contribution-grid-snake-dark.svg" width="100%" />
-  </picture>
-</p>
-
-<p align="center"><sub><a href="https://github.com/theneotic">CONTRIBUTION TRACE · REFRESHES FROM PUBLIC GITHUB ACTIVITY</a></sub></p>
 
 ---
 
