@@ -2,6 +2,8 @@
 
 <p align="center"><img src="./assets/the-neotic-glyph-wordmark.svg" alt="THE / NEOTIC — Glyph Ledger" width="980" /></p>
 
+<p align="center"><code>┌─ THE / NEOTIC · SYSTEM ONLINE ─┐<br />│ &gt; BUILD · SECURE · OBSERVE_ │<br />└────────────────────────────────┘</code></p>
+
 <p align="center"><code>&lt;/&gt; Why</code></p>
 
 <p align="center">
@@ -24,9 +26,9 @@
 
 ---
 
-## Tech stack / instrument panel
+## Skill matrix / instrument panel
 
-<p align="center"><sub><code>CURATED FROM ACTIVE PUBLIC WORK · EACH INSTRUMENT LINKS TO ITS PRIMARY SOURCE</code></sub></p>
+<p align="center"><sub><code>SELECT A MODULE → OPEN ITS PRIMARY DOCUMENTATION · CURATED FROM ACTIVE PUBLIC WORK</code></sub></p>
 
 <p align="center"><strong>LANGUAGES</strong></p>
 
@@ -46,6 +48,14 @@
   <a href="https://developer.mozilla.org/docs/Web"><img src="https://img.shields.io/badge/WEB%20PLATFORM-0B1120?style=for-the-badge&logo=mdnwebdocs&logoColor=64C8FF" alt="Web platform documentation" /></a>
 </p>
 
+<p align="center"><strong>INTERACTION + SIGNAL</strong></p>
+
+<p align="center">
+  <a href="https://tailwindcss.com/docs"><img src="https://img.shields.io/badge/TAILWIND%20CSS-0B1120?style=for-the-badge&logo=tailwindcss&logoColor=64C8FF" alt="Tailwind CSS documentation" /></a>
+  <a href="https://www.framer.com/motion/"><img src="https://img.shields.io/badge/FRAMER%20MOTION-0B1120?style=for-the-badge&logo=framer&logoColor=64C8FF" alt="Framer Motion documentation" /></a>
+  <a href="https://recharts.github.io/"><img src="https://img.shields.io/badge/RECHARTS-0B1120?style=for-the-badge&logo=chartdotjs&logoColor=64C8FF" alt="Recharts documentation" /></a>
+</p>
+
 <p align="center"><strong>NATIVE + OPERATIONS</strong></p>
 
 <p align="center">
@@ -60,12 +70,16 @@
 
 ## Signal ledger
 
-<p align="center">
-  <a href="https://github.com/theneotic?tab=repositories"><img src="https://img.shields.io/badge/PUBLIC%20REPOSITORIES-09-0B1120?style=for-the-badge&amp;logo=github&amp;logoColor=64C8FF" alt="Nine public GitHub repositories" /></a>
-  <a href="https://github.com/theneotic?tab=repositories"><img src="https://img.shields.io/badge/PUBLIC%20STARS-04-0B1120?style=for-the-badge&amp;logo=github&amp;logoColor=FF7A59" alt="Four stars across public GitHub repositories" /></a>
-  <a href="https://github.com/theneotic"><img src="https://img.shields.io/badge/ACCOUNT%20RECORD-2024-0B1120?style=for-the-badge&amp;logo=github&amp;logoColor=C9D1D9" alt="GitHub account established in 2024" /></a>
-  <a href="https://github.com/theneotic?tab=repositories"><img src="https://img.shields.io/badge/TYPESCRIPT%20PROJECTS-03-0B1120?style=for-the-badge&amp;logo=typescript&amp;logoColor=64C8FF" alt="Three public TypeScript projects" /></a>
-</p>
+<!-- PROFILE_RECORD:START -->
+| `PUBLIC SIGNAL` | `CURRENT RECORD` |
+|---|---:|
+| Repositories | [`10`](https://github.com/theneotic?tab=repositories) |
+| Stars across public repositories | `4` |
+| Followers / following | `2 / 3` |
+| Leading repository language | `TypeScript · 3 projects` |
+| Account established | `2024-01-18` |
+| Last record refresh | `2026-08-21 21:22 UTC` |
+<!-- PROFILE_RECORD:END -->
 
 <p align="center">
   <a href="https://github.com/theneotic?tab=repositories"><img src="https://img.shields.io/badge/REPOSITORY%20INDEX-OPEN-0B1120?style=for-the-badge&amp;logo=git&amp;logoColor=64C8FF" alt="Open public repository index" /></a>
@@ -73,7 +87,7 @@
   <a href="https://github.com/theneotic/theneotic/tree/output"><img src="https://img.shields.io/badge/CONTRIBUTION%20TRACE-LIVE-0B1120?style=for-the-badge&logo=githubactions&logoColor=64C8FF" alt="Open live contribution trace output" /></a>
 </p>
 
-<p align="center"><sub><code>VERIFIED PUBLIC ACCOUNT RECORD · NO RATE-LIMITED STAT-CARD DEPENDENCY</code></sub></p>
+<p align="center"><sub><code>WEEKLY PUBLIC ACCOUNT RECORD · BOUNDED TO THIS LEDGER · NO RATE-LIMITED STAT-CARD DEPENDENCY</code></sub></p>
 
 ---
 
