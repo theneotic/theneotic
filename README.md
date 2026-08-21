@@ -65,6 +65,11 @@
   <a href="https://github.com/theneotic?tab=repositories"><img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=theneotic&amp;theme=github_dark" alt="Most-used public repository languages for theneotic" width="49%" /></a>
 </p>
 
+<p align="center">
+  <a href="https://github.com/theneotic"><img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=theneotic&amp;theme=github_dark&amp;utcOffset=5.5" alt="Public GitHub development cadence for theneotic in UTC plus 5:30" width="49%" /></a>
+  <a href="https://github.com/theneotic?tab=repositories"><img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=theneotic&amp;theme=github_dark" alt="Public repositories grouped by language for theneotic" width="49%" /></a>
+</p>
+
 <p align="center"><a href="https://github.com/theneotic"><img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=theneotic&amp;theme=github_dark" alt="GitHub contribution and profile details for theneotic" width="100%" /></a></p>
 
 <p align="center">
@@ -73,7 +78,7 @@
   <a href="https://github.com/theneotic/theneotic/tree/output"><img src="https://img.shields.io/badge/CONTRIBUTION%20TRACE-LIVE-0B1120?style=for-the-badge&logo=githubactions&logoColor=64C8FF" alt="Open live contribution trace output" /></a>
 </p>
 
-<p align="center"><sub><code>LIVE ACCOUNT READOUT · LANGUAGE MIX · CONTRIBUTION DENSITY · OPEN SOURCE SIGNALS</code></sub></p>
+<p align="center"><sub><code>LIVE ACCOUNT READOUT · LANGUAGE MIX · DEVELOPMENT CADENCE · REPOSITORY SPREAD</code></sub></p>
 
 ---
 
