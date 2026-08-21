@@ -61,24 +61,19 @@
 ## Signal ledger
 
 <p align="center">
-  <a href="https://github.com/theneotic"><img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=theneotic&amp;theme=github_dark" alt="GitHub account statistics for theneotic" width="49%" /></a>
-  <a href="https://github.com/theneotic?tab=repositories"><img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=theneotic&amp;theme=github_dark" alt="Most-used public repository languages for theneotic" width="49%" /></a>
+  <a href="https://github.com/theneotic?tab=repositories"><img src="https://img.shields.io/badge/PUBLIC%20REPOSITORIES-09-0B1120?style=for-the-badge&amp;logo=github&amp;logoColor=64C8FF" alt="Nine public GitHub repositories" /></a>
+  <a href="https://github.com/theneotic?tab=repositories"><img src="https://img.shields.io/badge/PUBLIC%20STARS-04-0B1120?style=for-the-badge&amp;logo=github&amp;logoColor=FF7A59" alt="Four stars across public GitHub repositories" /></a>
+  <a href="https://github.com/theneotic"><img src="https://img.shields.io/badge/ACCOUNT%20RECORD-2024-0B1120?style=for-the-badge&amp;logo=github&amp;logoColor=C9D1D9" alt="GitHub account established in 2024" /></a>
+  <a href="https://github.com/theneotic?tab=repositories"><img src="https://img.shields.io/badge/TYPESCRIPT%20PROJECTS-03-0B1120?style=for-the-badge&amp;logo=typescript&amp;logoColor=64C8FF" alt="Three public TypeScript projects" /></a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/theneotic"><img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=theneotic&amp;theme=github_dark&amp;utcOffset=5.5" alt="Public GitHub development cadence for theneotic in UTC plus 5:30" width="49%" /></a>
-  <a href="https://github.com/theneotic?tab=repositories"><img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=theneotic&amp;theme=github_dark" alt="Public repositories grouped by language for theneotic" width="49%" /></a>
-</p>
-
-<p align="center"><a href="https://github.com/theneotic"><img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=theneotic&amp;theme=github_dark" alt="GitHub contribution and profile details for theneotic" width="100%" /></a></p>
-
-<p align="center">
-  <a href="https://github.com/theneotic?tab=repositories"><img src="https://img.shields.io/badge/PUBLIC%20REPOS-09-0B1120?style=for-the-badge&logo=github&logoColor=64C8FF" alt="Nine public repositories" /></a>
+  <a href="https://github.com/theneotic?tab=repositories"><img src="https://img.shields.io/badge/REPOSITORY%20INDEX-OPEN-0B1120?style=for-the-badge&amp;logo=git&amp;logoColor=64C8FF" alt="Open public repository index" /></a>
   <a href="https://github.com/theneotic/tight-secure"><img src="https://img.shields.io/badge/FEATURED%20SYSTEM-MONOLITH%20VAULT-0B1120?style=for-the-badge&logo=shield&logoColor=FF7A59" alt="Featured system: Monolith Vault" /></a>
   <a href="https://github.com/theneotic/theneotic/tree/output"><img src="https://img.shields.io/badge/CONTRIBUTION%20TRACE-LIVE-0B1120?style=for-the-badge&logo=githubactions&logoColor=64C8FF" alt="Open live contribution trace output" /></a>
 </p>
 
-<p align="center"><sub><code>LIVE ACCOUNT READOUT · LANGUAGE MIX · DEVELOPMENT CADENCE · REPOSITORY SPREAD</code></sub></p>
+<p align="center"><sub><code>VERIFIED PUBLIC ACCOUNT RECORD · NO RATE-LIMITED STAT-CARD DEPENDENCY</code></sub></p>
 
 ---
 
@@ -100,10 +95,17 @@
 
 <p align="center"><sub><code>PROJECT INDEX · PURPOSE-BUILT INTERFACES, OPEN SOURCE, DIRECT ENTRY</code></sub></p>
 
-| Route | System | Primary signal | Direct actions |
-|:--:|---|---|---|
-| `VAULT / 01` | **[Monolith Vault](https://github.com/theneotic/tight-secure)** | Password intelligence, contextual risk reading, and local-first interface work. <br /><img src="https://img.shields.io/badge/TYPESCRIPT-0B1120?style=flat-square&logo=typescript&logoColor=64C8FF" alt="TypeScript" /> | [OPEN REPO →](https://github.com/theneotic/tight-secure) · [VIEW CODE →](https://github.com/theneotic/tight-secure/tree/main) |
-| `RACE / 02` | **[F1 Telemetry Dashboard](https://github.com/theneotic/f1-telemetry-dashboard)** | A telemetry-oriented dashboard for turning racing data into readable visual signal. <br /><img src="https://img.shields.io/badge/HTML-0B1120?style=flat-square&logo=html5&logoColor=FF7A59" alt="HTML" /> | [OPEN REPO →](https://github.com/theneotic/f1-telemetry-dashboard) · [VIEW CODE →](https://github.com/theneotic/f1-telemetry-dashboard/tree/master) |
+### `VAULT / 01` · [Monolith Vault](https://github.com/theneotic/tight-secure)
+
+Password intelligence, contextual risk reading, and local-first interface work. <a href="https://www.typescriptlang.org/docs/"><img src="https://img.shields.io/badge/TYPESCRIPT-0B1120?style=flat-square&amp;logo=typescript&amp;logoColor=64C8FF" alt="TypeScript" /></a>
+
+[OPEN REPOSITORY →](https://github.com/theneotic/tight-secure) · [VIEW SOURCE →](https://github.com/theneotic/tight-secure/tree/main)
+
+### `RACE / 02` · [F1 Telemetry Dashboard](https://github.com/theneotic/f1-telemetry-dashboard)
+
+A telemetry-oriented dashboard for turning racing data into readable visual signal. <a href="https://developer.mozilla.org/docs/Web/HTML"><img src="https://img.shields.io/badge/HTML-0B1120?style=flat-square&amp;logo=html5&amp;logoColor=FF7A59" alt="HTML" /></a>
+
+[OPEN REPOSITORY →](https://github.com/theneotic/f1-telemetry-dashboard) · [VIEW SOURCE →](https://github.com/theneotic/f1-telemetry-dashboard/tree/master)
 
 <p align="center"><sub><code>ALL ROUTES OPEN IN GITHUB · NO PORTFOLIO LAYER BETWEEN THE WORK AND THE SOURCE</code></sub></p>
 
