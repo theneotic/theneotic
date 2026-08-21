@@ -77,8 +77,9 @@
 | Stars across public repositories | `4` |
 | Followers / following | `2 / 3` |
 | Leading repository language | `TypeScript · 3 projects` |
+| Visitor days observed | `1` · starts from activation |
 | Account established | `2024-01-18` |
-| Last record refresh | `2026-08-21 21:22 UTC` |
+| Last record refresh | `2026-08-21 21:35 UTC` |
 <!-- PROFILE_RECORD:END -->
 
 <p align="center">
@@ -87,7 +88,23 @@
   <a href="https://github.com/theneotic/theneotic/tree/output"><img src="https://img.shields.io/badge/CONTRIBUTION%20TRACE-LIVE-0B1120?style=for-the-badge&logo=githubactions&logoColor=64C8FF" alt="Open live contribution trace output" /></a>
 </p>
 
-<p align="center"><sub><code>WEEKLY PUBLIC ACCOUNT RECORD · BOUNDED TO THIS LEDGER · NO RATE-LIMITED STAT-CARD DEPENDENCY</code></sub></p>
+<p align="center"><sub><code>DAILY PUBLIC ACCOUNT RECORD · BOUNDED TO THIS LEDGER · NO RATE-LIMITED STAT-CARD DEPENDENCY</code></sub></p>
+
+---
+
+## Visitor activity heatmap
+
+<p align="center"><a href="https://visitor-badge.laobi.icu/"><img src="./assets/visitor-activity-heatmap.svg" alt="Visitor activity heatmap based on daily samples collected after activation" width="100%" /></a></p>
+
+<p align="center"><sub><code>DAILY COUNTER SAMPLES · HISTORY STARTS AFTER ACTIVATION · NO RETROACTIVE VISITOR DATA FABRICATED</code></sub></p>
+
+---
+
+## Audio signal
+
+<p align="center"><a href="https://open.spotify.com/"><img src="./assets/spotify-activity-card.svg" alt="Spotify audio activity card: live listening connection not yet configured" width="100%" /></a></p>
+
+<p align="center"><sub><code>SPOTIFY ACTIVITY SLOT · LIVE PLAYBACK REMAINS PRIVATE UNTIL ACCOUNT AUTHORIZATION IS CONNECTED</code></sub></p>
 
 ---
 
