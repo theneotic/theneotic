@@ -100,14 +100,6 @@
 
 ---
 
-## Audio signal
-
-<p align="center"><a href="https://open.spotify.com/"><img src="./assets/spotify-activity-card.svg" alt="Spotify audio activity card: live listening connection not yet configured" width="100%" /></a></p>
-
-<p align="center"><sub><code>SPOTIFY ACTIVITY SLOT · LIVE PLAYBACK REMAINS PRIVATE UNTIL ACCOUNT AUTHORIZATION IS CONNECTED</code></sub></p>
-
----
-
 ## Contribution trace
 
 <p align="center">
