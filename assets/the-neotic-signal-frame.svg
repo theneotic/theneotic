@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1900" height="500" viewBox="0 0 1900 500" role="img" aria-labelledby="title desc">
+  <title id="title">THE / NEOTIC — Glyph Ledger</title>
+  <desc id="desc">A technical editorial banner with a luminous animated signal border, scanline, and THE NEOTIC wordmark.</desc>
+  <defs>
+    <linearGradient id="surface" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070B13"/>
+      <stop offset="0.55" stop-color="#0B1120"/>
+      <stop offset="1" stop-color="#120D18"/>
+    </linearGradient>
+    <linearGradient id="signal" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#64C8FF"/>
+      <stop offset="0.48" stop-color="#E6EDF3"/>
+      <stop offset="1" stop-color="#FF7A59"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-30%" width="140%" height="160%">
+      <feGaussianBlur stdDeviation="7" result="soft"/>
+      <feMerge>
+        <feMergeNode in="soft"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="1900" height="500" rx="28" fill="url(#surface)"/>
+  <rect x="22" y="22" width="1856" height="456" rx="18" fill="none" stroke="#30363D" stroke-width="2"/>
+  <rect x="31" y="31" width="1838" height="438" rx="14" fill="none" stroke="url(#signal)" stroke-width="3" stroke-linecap="round" stroke-dasharray="250 7600" filter="url(#glow)">
+    <animate attributeName="stroke-dashoffset" values="0;-7850" dur="6s" repeatCount="indefinite"/>
+  </rect>
+  <line x1="58" y1="72" x2="1842" y2="72" stroke="#64C8FF" stroke-width="2" opacity="0.16">
+    <animate attributeName="y1" values="72;428;72" dur="5s" repeatCount="indefinite"/>
+    <animate attributeName="y2" values="72;428;72" dur="5s" repeatCount="indefinite"/>
+  </line>
+  <g fill="none" stroke="#E6EDF3" stroke-linecap="square" stroke-linejoin="miter">
+    <path d="M106 350V150L286 350V150" stroke-width="18"/>
+    <path d="M126 350V182L266 322V150" stroke="#64C8FF" stroke-width="7"/>
+  </g>
+  <rect x="338" y="149" width="2" height="202" fill="#30363D"/>
+  <text x="395" y="292" fill="#E6EDF3" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="116" font-weight="700" letter-spacing="19">THE</text>
+  <text x="765" y="292" fill="#FF7A59" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="116" font-weight="400">/</text>
+  <text x="855" y="292" fill="#E6EDF3" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="116" font-weight="700" letter-spacing="19">NEOTIC</text>
+  <line x1="398" y1="334" x2="1497" y2="334" stroke="#30363D" stroke-width="3"/>
+  <circle cx="1514" cy="334" r="6" fill="#64C8FF" filter="url(#glow)">
+    <animate attributeName="opacity" values="0.45;1;0.45" dur="1.6s" repeatCount="indefinite"/>
+  </circle>
+  <text x="400" y="388" fill="#8B949E" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="22" letter-spacing="6">GLYPH LEDGER · INDEPENDENT SYSTEMS · SIGNAL FRAME ACTIVE</text>
+</svg>
