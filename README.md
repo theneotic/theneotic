@@ -73,13 +73,13 @@
 <!-- PROFILE_RECORD:START -->
 | `PUBLIC SIGNAL` | `CURRENT RECORD` |
 |---|---:|
-| Repositories | [`10`](https://github.com/theneotic?tab=repositories) |
+| Repositories | [`11`](https://github.com/theneotic?tab=repositories) |
 | Stars across public repositories | `4` |
-| Followers / following | `2 / 3` |
-| Leading repository language | `TypeScript · 3 projects` |
-| Visitor days observed | `1` · starts from activation |
+| Followers / following | `3 / 3` |
+| Leading repository language | `TypeScript · 4 projects` |
+| Visitor days observed | `2` · starts from activation |
 | Account established | `2024-01-18` |
-| Last record refresh | `2026-08-21 21:35 UTC` |
+| Last record refresh | `2026-08-22 05:42 UTC` |
 <!-- PROFILE_RECORD:END -->
 
 <p align="center">
