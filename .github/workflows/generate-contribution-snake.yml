@@ -21,7 +21,7 @@ jobs:
         with:
           github_user_name: theneotic
           outputs: |
-            dist/github-contribution-grid-snake-dark.svg?color_snake=FF7A59&color_dots=24324A,2F5E78,3B8EBF,55BDE6,9AE6FF
+            dist/github-contribution-grid-snake-dark.svg?color_snake=%23FF7A59&color_dots=%2324324A,%232F5E78,%233B8EBF,%2355BDE6,%239AE6FF
             dist/github-contribution-grid-snake-light.svg?palette=github-light&color_snake=146C94&color_dots=EBEDF0,C6E4ED,8DC7DA,4F9DBA,146C94
 
       - name: Publish generated assets to output branch
