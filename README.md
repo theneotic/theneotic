@@ -1,94 +1,67 @@
 <p align="center"><a href="https://github.com/theneotic"><img src="https://visitor-badge.laobi.icu/badge?page_id=theneotic.theneotic&amp;left_text=VISITS&amp;left_color=0B1120&amp;right_color=64C8FF" alt="Live profile visit count" /></a></p>
 
-<p align="center"><img src="./assets/the-neotic-glyph-wordmark.svg" alt="THE / NEOTIC — Glyph Ledger" width="980" /></p>
+<p align="center"><img src="./assets/the-neotic-glyph-wordmark.svg" alt="THE / NEOTIC — Glyph Ledger" width="100%" /></p>
 
-<p align="center"><code>┌─ THE / NEOTIC · SYSTEM ONLINE ─┐<br />│ &gt; BUILD · SECURE · OBSERVE_ │<br />└────────────────────────────────┘</code></p>
+<p align="center"><code>THE / NEOTIC · SYSTEM ONLINE</code><br /><sub>BUILD · SECURE · OBSERVE</sub></p>
 
-<p align="center"><code>&lt;/&gt; Why</code></p>
+<p align="center"><sub>LOCAL-FIRST · SECURITY · INTERACTION · USEFUL SYSTEMS</sub></p>
 
 <p align="center">
-  <a href="https://github.com/theneotic/tight-secure"><img src="https://img.shields.io/badge/OPEN%20WORKSPACE-0B1120?style=for-the-badge&logo=shield&logoColor=FF7A59" alt="Open Monolith Vault workspace" /></a>
-  <a href="https://github.com/theneotic?tab=repositories"><img src="https://img.shields.io/badge/BROWSE%20SOURCE-0B1120?style=for-the-badge&logo=git&logoColor=64C8FF" alt="Browse source repositories" /></a>
-  <a href="#connect-terminal"><img src="https://img.shields.io/badge/OPEN%20TERMINAL-0B1120?style=for-the-badge&logo=github&logoColor=C9D1D9" alt="Open connection terminal" /></a>
+  <a href="https://github.com/theneotic/Monolith-Vault"><code>OPEN WORKSPACE →</code></a><br />
+  <a href="https://github.com/theneotic?tab=repositories"><code>BROWSE SOURCE →</code></a><br />
+  <a href="#connect-terminal"><code>CONNECT →</code></a>
 </p>
-
-<p align="center"><sub><code>LOCAL-FIRST</code> · <code>SECURITY</code> · <code>INTERACTION</code> · <code>USEFUL SYSTEMS</code></sub></p>
 
 ---
 
-## Active routes
+## Route index
 
-| ID | Workspace | Focus | Open |
-|:--:|---|---|---|
-| `01` | **Monolith Vault** | Password intelligence and contextual strength analysis. | [OPEN →](https://github.com/theneotic/tight-secure) |
-| `02` | **Tight Secure** | Security product study and interface experiments. | [OPEN →](https://github.com/theneotic/tight-secure) |
-| `03` | **F1 Telemetry** | Data-led telemetry and visualization work. | [OPEN →](https://github.com/theneotic/f1-telemetry-dashboard) |
+**`01` · [Monolith Vault](https://github.com/theneotic/Monolith-Vault)** <br />
+Password intelligence and contextual strength analysis. [Open →](https://github.com/theneotic/Monolith-Vault)
+
+**`02` · [Ledgerly](https://github.com/theneotic/ledgerly)** <br />
+Budget-management records and recurring rules. [Open →](https://github.com/theneotic/ledgerly)
+
+**`03` · [Universal Backup](https://github.com/theneotic/universal-backup-merger-web)** <br />
+Focused backup-merging web interface. [Open →](https://github.com/theneotic/universal-backup-merger-web)
+
+**`04` · [LumenCraft Bedrock](https://github.com/theneotic/lumencraft-bedrock)** <br />
+Private Minecraft Bedrock shader and resource-pack add-on with performance profiles. [Open →](https://github.com/theneotic/lumencraft-bedrock)
 
 ---
 
-## Skill matrix / instrument panel
+## Tech stack
 
-<p align="center"><sub><code>SELECT A MODULE → OPEN ITS PRIMARY DOCUMENTATION · CURATED FROM ACTIVE PUBLIC WORK</code></sub></p>
+<p align="center"><sub>OPEN A MODULE · CURATED FROM ACTIVE PUBLIC WORK</sub></p>
 
-<p align="center"><strong>LANGUAGES</strong></p>
+**Languages** <br />
+[TypeScript](https://www.typescriptlang.org/docs/) · [JavaScript](https://developer.mozilla.org/docs/Web/JavaScript) · [HTML](https://developer.mozilla.org/docs/Web/HTML) · [CSS](https://developer.mozilla.org/docs/Web/CSS) · [Python](https://docs.python.org/3/)
 
-<p align="center">
-  <a href="https://www.typescriptlang.org/docs/"><img src="https://img.shields.io/badge/TYPESCRIPT-0B1120?style=for-the-badge&logo=typescript&logoColor=64C8FF" alt="TypeScript documentation" /></a>
-  <a href="https://developer.mozilla.org/docs/Web/JavaScript"><img src="https://img.shields.io/badge/JAVASCRIPT-0B1120?style=for-the-badge&logo=javascript&logoColor=64C8FF" alt="JavaScript documentation" /></a>
-  <a href="https://developer.mozilla.org/docs/Web/HTML"><img src="https://img.shields.io/badge/HTML-0B1120?style=for-the-badge&logo=html5&logoColor=64C8FF" alt="HTML documentation" /></a>
-  <a href="https://developer.mozilla.org/docs/Web/CSS"><img src="https://img.shields.io/badge/CSS-0B1120?style=for-the-badge&logo=css&logoColor=64C8FF" alt="CSS documentation" /></a>
-  <a href="https://docs.python.org/3/"><img src="https://img.shields.io/badge/PYTHON-0B1120?style=for-the-badge&logo=python&logoColor=64C8FF" alt="Python documentation" /></a>
-</p>
+**Frameworks** <br />
+[React](https://react.dev/) · [Vite](https://vite.dev/guide/) · [Tailwind CSS](https://tailwindcss.com/docs) · [Framer Motion](https://www.framer.com/motion/) · [Recharts](https://recharts.github.io/)
 
-<p align="center"><strong>FRAMEWORKS + PLATFORM</strong></p>
-
-<p align="center">
-  <a href="https://react.dev/"><img src="https://img.shields.io/badge/REACT-0B1120?style=for-the-badge&logo=react&logoColor=64C8FF" alt="React documentation" /></a>
-  <a href="https://vite.dev/guide/"><img src="https://img.shields.io/badge/VITE-0B1120?style=for-the-badge&logo=vite&logoColor=64C8FF" alt="Vite documentation" /></a>
-  <a href="https://developer.mozilla.org/docs/Web"><img src="https://img.shields.io/badge/WEB%20PLATFORM-0B1120?style=for-the-badge&logo=mdnwebdocs&logoColor=64C8FF" alt="Web platform documentation" /></a>
-</p>
-
-<p align="center"><strong>INTERACTION + SIGNAL</strong></p>
-
-<p align="center">
-  <a href="https://tailwindcss.com/docs"><img src="https://img.shields.io/badge/TAILWIND%20CSS-0B1120?style=for-the-badge&logo=tailwindcss&logoColor=64C8FF" alt="Tailwind CSS documentation" /></a>
-  <a href="https://www.framer.com/motion/"><img src="https://img.shields.io/badge/FRAMER%20MOTION-0B1120?style=for-the-badge&logo=framer&logoColor=64C8FF" alt="Framer Motion documentation" /></a>
-  <a href="https://recharts.github.io/"><img src="https://img.shields.io/badge/RECHARTS-0B1120?style=for-the-badge&logo=chartdotjs&logoColor=64C8FF" alt="Recharts documentation" /></a>
-</p>
-
-<p align="center"><strong>NATIVE + OPERATIONS</strong></p>
-
-<p align="center">
-  <a href="https://kotlinlang.org/docs/home.html"><img src="https://img.shields.io/badge/KOTLIN-0B1120?style=for-the-badge&logo=kotlin&logoColor=FF7A59" alt="Kotlin documentation" /></a>
-  <a href="https://developer.android.com/docs"><img src="https://img.shields.io/badge/ANDROID-0B1120?style=for-the-badge&logo=android&logoColor=FF7A59" alt="Android documentation" /></a>
-  <a href="https://git-scm.com/doc"><img src="https://img.shields.io/badge/GIT-0B1120?style=for-the-badge&logo=git&logoColor=FF7A59" alt="Git documentation" /></a>
-  <a href="https://github.com/theneotic"><img src="https://img.shields.io/badge/GITHUB-0B1120?style=for-the-badge&logo=github&logoColor=FF7A59" alt="GitHub profile" /></a>
-  <a href="https://docs.github.com/actions"><img src="https://img.shields.io/badge/GITHUB%20ACTIONS-0B1120?style=for-the-badge&logo=githubactions&logoColor=FF7A59" alt="GitHub Actions documentation" /></a>
-</p>
+**Platform and operations** <br />
+[Web platform](https://developer.mozilla.org/docs/Web) · [Kotlin](https://kotlinlang.org/docs/home.html) · [Android](https://developer.android.com/docs) · [Git](https://git-scm.com/doc) · [GitHub Actions](https://docs.github.com/actions)
 
 ---
 
 ## Signal ledger
 
 <!-- PROFILE_RECORD:START -->
-| `PUBLIC SIGNAL` | `CURRENT RECORD` |
-|---|---:|
-| Repositories | [`11`](https://github.com/theneotic?tab=repositories) |
-| Stars across public repositories | `4` |
-| Followers / following | `3 / 3` |
-| Leading repository language | `TypeScript · 4 projects` |
-| Visitor days observed | `2` · starts from activation |
-| Account established | `2024-01-18` |
-| Last record refresh | `2026-08-22 05:42 UTC` |
+**Repositories** · [11](https://github.com/theneotic?tab=repositories) <br />
+**Public stars** · `4` <br />
+**Followers / following** · `4 / 3` <br />
+**Leading language** · `TypeScript · 4 projects` <br />
+**Visitor days observed** · `2` · starts from activation <br />
+**Account established** · `2024-01-18` <br />
+**Last refresh** · `2026-08-22 12:28 UTC`
 <!-- PROFILE_RECORD:END -->
 
-<p align="center">
-  <a href="https://github.com/theneotic?tab=repositories"><img src="https://img.shields.io/badge/REPOSITORY%20INDEX-OPEN-0B1120?style=for-the-badge&amp;logo=git&amp;logoColor=64C8FF" alt="Open public repository index" /></a>
-  <a href="https://github.com/theneotic/tight-secure"><img src="https://img.shields.io/badge/FEATURED%20SYSTEM-MONOLITH%20VAULT-0B1120?style=for-the-badge&logo=shield&logoColor=FF7A59" alt="Featured system: Monolith Vault" /></a>
-  <a href="https://github.com/theneotic/theneotic/tree/output"><img src="https://img.shields.io/badge/CONTRIBUTION%20TRACE-LIVE-0B1120?style=for-the-badge&logo=githubactions&logoColor=64C8FF" alt="Open live contribution trace output" /></a>
-</p>
+**[Repository index](https://github.com/theneotic?tab=repositories)** <br />
+**[Featured system: Monolith Vault](https://github.com/theneotic/Monolith-Vault)** <br />
+**[Contribution trace output](https://github.com/theneotic/theneotic/tree/output)**
 
-<p align="center"><sub><code>DAILY PUBLIC ACCOUNT RECORD · BOUNDED TO THIS LEDGER · NO RATE-LIMITED STAT-CARD DEPENDENCY</code></sub></p>
+<p align="center"><sub>DAILY PUBLIC RECORD · BOUNDED TO THIS LEDGER</sub></p>
 
 ---
 
@@ -96,7 +69,7 @@
 
 <p align="center"><a href="https://visitor-badge.laobi.icu/"><img src="./assets/visitor-activity-heatmap.svg" alt="Visitor activity heatmap based on daily samples collected after activation" width="100%" /></a></p>
 
-<p align="center"><sub><code>DAILY COUNTER SAMPLES · HISTORY STARTS AFTER ACTIVATION · NO RETROACTIVE VISITOR DATA FABRICATED</code></sub></p>
+<p align="center"><sub>DAILY SAMPLES · HISTORY STARTS AFTER ACTIVATION</sub></p>
 
 ---
 
@@ -118,41 +91,43 @@
 
 <p align="center"><sub><code>PROJECT INDEX · PURPOSE-BUILT INTERFACES, OPEN SOURCE, DIRECT ENTRY</code></sub></p>
 
-### `VAULT / 01` · [Monolith Vault](https://github.com/theneotic/tight-secure)
+### `VAULT / 01` · [Monolith Vault](https://github.com/theneotic/Monolith-Vault)
 
 Password intelligence, contextual risk reading, and local-first interface work. <a href="https://www.typescriptlang.org/docs/"><img src="https://img.shields.io/badge/TYPESCRIPT-0B1120?style=flat-square&amp;logo=typescript&amp;logoColor=64C8FF" alt="TypeScript" /></a>
 
-[OPEN REPOSITORY →](https://github.com/theneotic/tight-secure) · [VIEW SOURCE →](https://github.com/theneotic/tight-secure/tree/main)
+[Repository →](https://github.com/theneotic/Monolith-Vault) <br />
+[Source →](https://github.com/theneotic/Monolith-Vault/tree/main)
 
 ### `LEDGER / 02` · [Ledgerly](https://github.com/theneotic/ledgerly)
 
 A TypeScript budget-management system with recurring rules and account-isolated records. <a href="https://www.typescriptlang.org/docs/"><img src="https://img.shields.io/badge/TYPESCRIPT-0B1120?style=flat-square&amp;logo=typescript&amp;logoColor=64C8FF" alt="TypeScript" /></a>
 
-[OPEN REPOSITORY →](https://github.com/theneotic/ledgerly) · [VIEW SOURCE →](https://github.com/theneotic/ledgerly/tree/main)
+[Repository →](https://github.com/theneotic/ledgerly) <br />
+[Source →](https://github.com/theneotic/ledgerly/tree/main)
 
 ### `ARCHIVE / 03` · [Universal Backup](https://github.com/theneotic/universal-backup-merger-web)
 
 A TypeScript web route for bringing universal backup-merging work into one focused interface. <a href="https://www.typescriptlang.org/docs/"><img src="https://img.shields.io/badge/TYPESCRIPT-0B1120?style=flat-square&amp;logo=typescript&amp;logoColor=64C8FF" alt="TypeScript" /></a>
 
-[OPEN REPOSITORY →](https://github.com/theneotic/universal-backup-merger-web) · [VIEW SOURCE →](https://github.com/theneotic/universal-backup-merger-web/tree/main)
+[Repository →](https://github.com/theneotic/universal-backup-merger-web) <br />
+[Source →](https://github.com/theneotic/universal-backup-merger-web/tree/main)
 
-### `MERGE / 04` · [Universal Backup Core](https://github.com/theneotic/universal-backup-merger)
+### `MINECRAFT / 04` · [LumenCraft Bedrock](https://github.com/theneotic/lumencraft-bedrock)
 
-A Python core repository for universal backup-merging workflows. <a href="https://docs.python.org/3/"><img src="https://img.shields.io/badge/PYTHON-0B1120?style=flat-square&amp;logo=python&amp;logoColor=FF7A59" alt="Python" /></a>
+A private Minecraft Bedrock shader and resource-pack add-on with Android-focused performance profiles, PBR materials, luminous atmosphere, weather, audio, particles, and a companion behavior pack.
 
-[OPEN REPOSITORY →](https://github.com/theneotic/universal-backup-merger) · [VIEW SOURCE →](https://github.com/theneotic/universal-backup-merger/tree/main)
+[Repository →](https://github.com/theneotic/lumencraft-bedrock) <br />
+[Source →](https://github.com/theneotic/lumencraft-bedrock/tree/main)
 
-<p align="center"><sub><code>ALL ROUTES OPEN IN GITHUB · NO PORTFOLIO LAYER BETWEEN THE WORK AND THE SOURCE</code></sub></p>
+<p align="center"><sub>ALL ROUTES OPEN DIRECTLY IN GITHUB</sub></p>
 
 ---
 
 ## Signal board
 
-<p align="center">
-  <a href="https://github.com/theneotic"><img src="https://img.shields.io/badge/PUBLIC%20PROFILE-0B1120?style=for-the-badge&logo=github&logoColor=64C8FF" alt="Open public profile" /></a>
-  <a href="https://github.com/theneotic?tab=repositories"><img src="https://img.shields.io/badge/REPOSITORY%20ARCHIVE-0B1120?style=for-the-badge&logo=git&logoColor=C9D1D9" alt="Open repository archive" /></a>
-  <a href="https://github.com/theneotic/tight-secure"><img src="https://img.shields.io/badge/ACTIVE%20WORKSPACE-0B1120?style=for-the-badge&logo=shield&logoColor=FF7A59" alt="Open active workspace" /></a>
-</p>
+**[Public profile](https://github.com/theneotic)** <br />
+**[Repository archive](https://github.com/theneotic?tab=repositories)** <br />
+**[Active workspace](https://github.com/theneotic/Monolith-Vault)**
 
 <p align="center"><sub><a href="https://github.com/theneotic">LIVE PUBLIC SIGNALS · LINKED TO SOURCE</a></sub></p>
 
@@ -163,12 +138,12 @@ A Python core repository for universal backup-merging workflows. <a href="https:
 
 <br />
 
-| Signal | Destination |
-|---|---|
-| Profile | [Open theneotic](https://github.com/theneotic) |
-| Repositories | [Browse all work](https://github.com/theneotic?tab=repositories) |
-| Security workspace | [Open Monolith Vault](https://github.com/theneotic/tight-secure) |
-| Telemetry workspace | [Open F1 Telemetry](https://github.com/theneotic/f1-telemetry-dashboard) |
+- **Profile:** [Open theneotic](https://github.com/theneotic)
+- **Repositories:** [Browse all work](https://github.com/theneotic?tab=repositories)
+- **Vault workspace:** [Open Monolith Vault](https://github.com/theneotic/Monolith-Vault)
+- **Ledger workspace:** [Open Ledgerly](https://github.com/theneotic/ledgerly)
+- **Backup workspace:** [Open Universal Backup](https://github.com/theneotic/universal-backup-merger-web)
+- **Minecraft add-on:** [Open LumenCraft Bedrock](https://github.com/theneotic/lumencraft-bedrock)
 
 <sub>This is a compact profile index. The work is the documentation.</sub>
 
@@ -178,13 +153,8 @@ A Python core repository for universal backup-merging workflows. <a href="https:
 
 ## Connect terminal
 
-<p align="center">
-  <a href="https://github.com/theneotic"><img src="https://img.shields.io/badge/OPEN%20GITHUB-0B1120?style=for-the-badge&logo=github&logoColor=64C8FF" alt="Open GitHub profile" /></a>
-  <a href="https://github.com/theneotic?tab=repositories"><img src="https://img.shields.io/badge/VIEW%20WORK-0B1120?style=for-the-badge&logo=git&logoColor=FF7A59" alt="View project work" /></a>
-  <a href="https://www.linkedin.com/in/samir-siddiquix/"><img src="https://img.shields.io/badge/LINKEDIN-0B1120?style=for-the-badge&logo=linkedin&logoColor=64C8FF" alt="Open Samir Siddiqui's LinkedIn profile" /></a>
-  <a href="mailto:samirsiddiquix@gmail.com"><img src="https://img.shields.io/badge/EMAIL-0B1120?style=for-the-badge&logo=gmail&logoColor=FF7A59" alt="Email Samir Siddiqui" /></a>
-  <a href="https://discord.gg/Zc99tAvx"><img src="https://img.shields.io/badge/DISCORD-0B1120?style=for-the-badge&logo=discord&logoColor=64C8FF" alt="Join Samir Siddiqui's Discord" /></a>
-</p>
+**[GitHub](https://github.com/theneotic)** · [Work](https://github.com/theneotic?tab=repositories) <br />
+**[LinkedIn](https://www.linkedin.com/in/samir-siddiquix/)** · [Email](mailto:samirsiddiquix@gmail.com) · [Discord](https://discord.gg/Zc99tAvx)
 
 <p align="center"><code>DISCORD / @alistairvalecrest / CHANNEL OPEN</code></p>
 

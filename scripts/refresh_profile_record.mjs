@@ -166,15 +166,13 @@ writeFileSync(visitorHeatmapPath, renderVisitorHeatmap(visitorHistory, sampleDat
 
 const record = [
   '<!-- PROFILE_RECORD:START -->',
-  '| `PUBLIC SIGNAL` | `CURRENT RECORD` |',
-  '|---|---:|',
-  `| Repositories | [\`${account.public_repos}\`](https://github.com/${username}?tab=repositories) |`,
-  `| Stars across public repositories | \`${publicStars}\` |`,
-  `| Followers / following | \`${account.followers} / ${account.following}\` |`,
-  `| Leading repository language | \`${language.language} · ${language.count} projects\` |`,
-  `| Visitor days observed | \`${visitorHistory.samples.length}\` · starts from activation |`,
-  `| Account established | \`${account.created_at.slice(0, 10)}\` |`,
-  `| Last record refresh | \`${refreshedAt} UTC\` |`,
+  `**Repositories** · [${account.public_repos}](https://github.com/${username}?tab=repositories) <br />`,
+  `**Public stars** · \`${publicStars}\` <br />`,
+  `**Followers / following** · \`${account.followers} / ${account.following}\` <br />`,
+  `**Leading language** · \`${language.language} · ${language.count} projects\` <br />`,
+  `**Visitor days observed** · \`${visitorHistory.samples.length}\` · starts from activation <br />`,
+  `**Account established** · \`${account.created_at.slice(0, 10)}\` <br />`,
+  `**Last refresh** · \`${refreshedAt} UTC\``,
   '<!-- PROFILE_RECORD:END -->',
 ].join('\n');
 
