@@ -16,11 +16,16 @@
 
 ## Route index
 
+<details open>
+<summary><strong>PROJECT ROUTES</strong> <sub>— tap the arrow to collapse; select a badge to open</sub></summary>
+
+<br />
+
 <p align="center">
-  <a href="https://github.com/theneotic/Monolith-Vault"><img src="https://img.shields.io/badge/01%20MONOLITH%20VAULT-0B1120?style=for-the-badge&amp;logo=shield&amp;logoColor=64C8FF" alt="Open Monolith Vault" /></a><br />
-  <a href="https://github.com/theneotic/ledgerly"><img src="https://img.shields.io/badge/02%20LEDGERLY-17324D?style=for-the-badge&amp;logo=bookstack&amp;logoColor=64C8FF" alt="Open Ledgerly" /></a><br />
-  <a href="https://github.com/theneotic/universal-backup-merger-web"><img src="https://img.shields.io/badge/03%20UNIVERSAL%20BACKUP-2D213A?style=for-the-badge&amp;logo=icloud&amp;logoColor=FF7A59" alt="Open Universal Backup" /></a><br />
-  <a href="https://github.com/theneotic/lumencraft-bedrock"><img src="https://img.shields.io/badge/04%20LUMENCRAFT%20BEDROCK-1E3A2E?style=for-the-badge&amp;logo=minecraft&amp;logoColor=8CD65B" alt="Open LumenCraft Bedrock" /></a>
+  <a href="https://github.com/theneotic/Monolith-Vault" title="Open the Monolith Vault repository"><img src="https://img.shields.io/badge/01%20MONOLITH%20VAULT-0B1120?style=for-the-badge&amp;logo=shield&amp;logoColor=64C8FF" alt="Open Monolith Vault" /></a><br />
+  <a href="https://github.com/theneotic/ledgerly" title="Open the Ledgerly repository"><img src="https://img.shields.io/badge/02%20LEDGERLY-17324D?style=for-the-badge&amp;logo=bookstack&amp;logoColor=64C8FF" alt="Open Ledgerly" /></a><br />
+  <a href="https://github.com/theneotic/universal-backup-merger-web" title="Open the Universal Backup repository"><img src="https://img.shields.io/badge/03%20UNIVERSAL%20BACKUP-2D213A?style=for-the-badge&amp;logo=icloud&amp;logoColor=FF7A59" alt="Open Universal Backup" /></a><br />
+  <a href="https://github.com/theneotic/lumencraft-bedrock" title="Open the private LumenCraft Bedrock repository"><img src="https://img.shields.io/badge/04%20LUMENCRAFT%20BEDROCK-1E3A2E?style=for-the-badge&amp;logo=minecraft&amp;logoColor=8CD65B" alt="Open LumenCraft Bedrock" /></a>
 </p>
 
 **Monolith Vault** — password intelligence and contextual strength analysis. <br />
@@ -28,41 +33,58 @@
 **Universal Backup** — focused backup-merging web interface. <br />
 **LumenCraft Bedrock** — private Minecraft Bedrock shader and resource-pack add-on with performance profiles.
 
+</details>
+
 ---
 
 ## Tech stack
 
 <p align="center"><sub>OPEN A MODULE · CURATED FROM ACTIVE PUBLIC WORK</sub></p>
 
-<p align="center"><strong>LANGUAGES</strong></p>
+<details open>
+<summary><strong>LANGUAGES</strong> <sub>— tap the arrow to collapse</sub></summary>
+
+<br />
 
 <p align="center">
-  <a href="https://www.typescriptlang.org/docs/"><img src="https://img.shields.io/badge/TYPESCRIPT-3178C6?style=for-the-badge&amp;logo=typescript&amp;logoColor=white" alt="TypeScript documentation" /></a>
-  <a href="https://developer.mozilla.org/docs/Web/JavaScript"><img src="https://img.shields.io/badge/JAVASCRIPT-F7DF1E?style=for-the-badge&amp;logo=javascript&amp;logoColor=111111" alt="JavaScript documentation" /></a><br />
-  <a href="https://developer.mozilla.org/docs/Web/HTML"><img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&amp;logo=html5&amp;logoColor=white" alt="HTML documentation" /></a>
-  <a href="https://developer.mozilla.org/docs/Web/CSS"><img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&amp;logo=css3&amp;logoColor=white" alt="CSS documentation" /></a>
-  <a href="https://docs.python.org/3/"><img src="https://img.shields.io/badge/PYTHON-3776AB?style=for-the-badge&amp;logo=python&amp;logoColor=FFDE57" alt="Python documentation" /></a>
+  <a href="https://www.typescriptlang.org/docs/" title="Open TypeScript documentation"><img src="https://img.shields.io/badge/TYPESCRIPT-3178C6?style=for-the-badge&amp;logo=typescript&amp;logoColor=white" alt="TypeScript documentation" /></a>
+  <a href="https://developer.mozilla.org/docs/Web/JavaScript" title="Open JavaScript documentation"><img src="https://img.shields.io/badge/JAVASCRIPT-F7DF1E?style=for-the-badge&amp;logo=javascript&amp;logoColor=111111" alt="JavaScript documentation" /></a><br />
+  <a href="https://developer.mozilla.org/docs/Web/HTML" title="Open HTML documentation"><img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&amp;logo=html5&amp;logoColor=white" alt="HTML documentation" /></a>
+  <a href="https://developer.mozilla.org/docs/Web/CSS" title="Open CSS documentation"><img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&amp;logo=css3&amp;logoColor=white" alt="CSS documentation" /></a>
+  <a href="https://docs.python.org/3/" title="Open Python documentation"><img src="https://img.shields.io/badge/PYTHON-3776AB?style=for-the-badge&amp;logo=python&amp;logoColor=FFDE57" alt="Python documentation" /></a>
 </p>
 
-<p align="center"><strong>FRAMEWORKS + LIBRARIES</strong></p>
+</details>
+
+<details open>
+<summary><strong>FRAMEWORKS + LIBRARIES</strong> <sub>— tap the arrow to collapse</sub></summary>
+
+<br />
 
 <p align="center">
-  <a href="https://react.dev/"><img src="https://img.shields.io/badge/REACT-20232A?style=for-the-badge&amp;logo=react&amp;logoColor=61DAFB" alt="React documentation" /></a>
-  <a href="https://vite.dev/guide/"><img src="https://img.shields.io/badge/VITE-646CFF?style=for-the-badge&amp;logo=vite&amp;logoColor=FFD62E" alt="Vite documentation" /></a><br />
-  <a href="https://tailwindcss.com/docs"><img src="https://img.shields.io/badge/TAILWIND%20CSS-06B6D4?style=for-the-badge&amp;logo=tailwindcss&amp;logoColor=white" alt="Tailwind CSS documentation" /></a>
-  <a href="https://www.framer.com/motion/"><img src="https://img.shields.io/badge/FRAMER%20MOTION-0055FF?style=for-the-badge&amp;logo=framer&amp;logoColor=white" alt="Framer Motion documentation" /></a><br />
-  <a href="https://recharts.github.io/"><img src="https://img.shields.io/badge/RECHARTS-263238?style=for-the-badge&amp;logo=chartdotjs&amp;logoColor=FF6384" alt="Recharts documentation" /></a>
+  <a href="https://react.dev/" title="Open React documentation"><img src="https://img.shields.io/badge/REACT-20232A?style=for-the-badge&amp;logo=react&amp;logoColor=61DAFB" alt="React documentation" /></a>
+  <a href="https://vite.dev/guide/" title="Open Vite documentation"><img src="https://img.shields.io/badge/VITE-646CFF?style=for-the-badge&amp;logo=vite&amp;logoColor=FFD62E" alt="Vite documentation" /></a><br />
+  <a href="https://tailwindcss.com/docs" title="Open Tailwind CSS documentation"><img src="https://img.shields.io/badge/TAILWIND%20CSS-06B6D4?style=for-the-badge&amp;logo=tailwindcss&amp;logoColor=white" alt="Tailwind CSS documentation" /></a>
+  <a href="https://www.framer.com/motion/" title="Open Framer Motion documentation"><img src="https://img.shields.io/badge/FRAMER%20MOTION-0055FF?style=for-the-badge&amp;logo=framer&amp;logoColor=white" alt="Framer Motion documentation" /></a><br />
+  <a href="https://recharts.github.io/" title="Open Recharts documentation"><img src="https://img.shields.io/badge/RECHARTS-263238?style=for-the-badge&amp;logo=chartdotjs&amp;logoColor=FF6384" alt="Recharts documentation" /></a>
 </p>
 
-<p align="center"><strong>PLATFORM + OPERATIONS</strong></p>
+</details>
+
+<details open>
+<summary><strong>PLATFORM + OPERATIONS</strong> <sub>— tap the arrow to collapse</sub></summary>
+
+<br />
 
 <p align="center">
-  <a href="https://developer.mozilla.org/docs/Web"><img src="https://img.shields.io/badge/WEB%20PLATFORM-0B1120?style=for-the-badge&amp;logo=mdnwebdocs&amp;logoColor=64C8FF" alt="Web platform documentation" /></a>
-  <a href="https://kotlinlang.org/docs/home.html"><img src="https://img.shields.io/badge/KOTLIN-7F52FF?style=for-the-badge&amp;logo=kotlin&amp;logoColor=white" alt="Kotlin documentation" /></a><br />
-  <a href="https://developer.android.com/docs"><img src="https://img.shields.io/badge/ANDROID-3DDC84?style=for-the-badge&amp;logo=android&amp;logoColor=0B1120" alt="Android documentation" /></a>
-  <a href="https://git-scm.com/doc"><img src="https://img.shields.io/badge/GIT-F05032?style=for-the-badge&amp;logo=git&amp;logoColor=white" alt="Git documentation" /></a>
-  <a href="https://docs.github.com/actions"><img src="https://img.shields.io/badge/GITHUB%20ACTIONS-2088FF?style=for-the-badge&amp;logo=githubactions&amp;logoColor=white" alt="GitHub Actions documentation" /></a>
+  <a href="https://developer.mozilla.org/docs/Web" title="Open Web platform documentation"><img src="https://img.shields.io/badge/WEB%20PLATFORM-0B1120?style=for-the-badge&amp;logo=mdnwebdocs&amp;logoColor=64C8FF" alt="Web platform documentation" /></a>
+  <a href="https://kotlinlang.org/docs/home.html" title="Open Kotlin documentation"><img src="https://img.shields.io/badge/KOTLIN-7F52FF?style=for-the-badge&amp;logo=kotlin&amp;logoColor=white" alt="Kotlin documentation" /></a><br />
+  <a href="https://developer.android.com/docs" title="Open Android documentation"><img src="https://img.shields.io/badge/ANDROID-3DDC84?style=for-the-badge&amp;logo=android&amp;logoColor=0B1120" alt="Android documentation" /></a>
+  <a href="https://git-scm.com/doc" title="Open Git documentation"><img src="https://img.shields.io/badge/GIT-F05032?style=for-the-badge&amp;logo=git&amp;logoColor=white" alt="Git documentation" /></a>
+  <a href="https://docs.github.com/actions" title="Open GitHub Actions documentation"><img src="https://img.shields.io/badge/GITHUB%20ACTIONS-2088FF?style=for-the-badge&amp;logo=githubactions&amp;logoColor=white" alt="GitHub Actions documentation" /></a>
 </p>
+
+</details>
 
 ---
 
