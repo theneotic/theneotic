@@ -88,6 +88,30 @@
 
 ---
 
+## Skill signal
+
+<p align="center"><sub>LUMINOUS ICON MATRIX · SELECT AN ICON TO OPEN ITS DOCUMENTATION</sub></p>
+
+<p align="center">
+  <a href="https://www.typescriptlang.org/docs/" title="Open TypeScript documentation"><img src="https://skillicons.dev/icons?i=typescript&amp;theme=dark" alt="TypeScript" height="46" /></a>
+  <a href="https://developer.mozilla.org/docs/Web/JavaScript" title="Open JavaScript documentation"><img src="https://skillicons.dev/icons?i=javascript&amp;theme=dark" alt="JavaScript" height="46" /></a>
+  <a href="https://developer.mozilla.org/docs/Web/HTML" title="Open HTML documentation"><img src="https://skillicons.dev/icons?i=html&amp;theme=dark" alt="HTML" height="46" /></a>
+  <a href="https://developer.mozilla.org/docs/Web/CSS" title="Open CSS documentation"><img src="https://skillicons.dev/icons?i=css&amp;theme=dark" alt="CSS" height="46" /></a>
+  <a href="https://docs.python.org/3/" title="Open Python documentation"><img src="https://skillicons.dev/icons?i=python&amp;theme=dark" alt="Python" height="46" /></a><br />
+  <a href="https://react.dev/" title="Open React documentation"><img src="https://skillicons.dev/icons?i=react&amp;theme=dark" alt="React" height="46" /></a>
+  <a href="https://vite.dev/guide/" title="Open Vite documentation"><img src="https://skillicons.dev/icons?i=vite&amp;theme=dark" alt="Vite" height="46" /></a>
+  <a href="https://tailwindcss.com/docs" title="Open Tailwind CSS documentation"><img src="https://skillicons.dev/icons?i=tailwind&amp;theme=dark" alt="Tailwind CSS" height="46" /></a>
+  <a href="https://www.framer.com/motion/" title="Open Framer Motion documentation"><img src="https://skillicons.dev/icons?i=framer&amp;theme=dark" alt="Framer Motion" height="46" /></a><br />
+  <a href="https://git-scm.com/doc" title="Open Git documentation"><img src="https://skillicons.dev/icons?i=git&amp;theme=dark" alt="Git" height="46" /></a>
+  <a href="https://docs.github.com/actions" title="Open GitHub Actions documentation"><img src="https://skillicons.dev/icons?i=githubactions&amp;theme=dark" alt="GitHub Actions" height="46" /></a>
+  <a href="https://kotlinlang.org/docs/home.html" title="Open Kotlin documentation"><img src="https://skillicons.dev/icons?i=kotlin&amp;theme=dark" alt="Kotlin" height="46" /></a>
+  <a href="https://developer.android.com/docs" title="Open Android documentation"><img src="https://skillicons.dev/icons?i=android&amp;theme=dark" alt="Android" height="46" /></a>
+</p>
+
+<p align="center"><sub>STATIC LUMINANCE · GITHUB-NATIVE LINKS · NO SCRIPTED TRACKING</sub></p>
+
+---
+
 ## Signal ledger
 
 <!-- PROFILE_RECORD:START -->
