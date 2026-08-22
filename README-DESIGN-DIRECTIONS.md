@@ -47,6 +47,10 @@ The page is a **vertical signal path**: identity command at the top, project rou
 2. Uniform dark “command” badges for navigation and technology groups.
 3. Compact numbered project routes in place of a large generic project table.
 
+## Featured Route Convention
+
+Featured systems use short route identifiers such as `VAULT / 01` and `MERGE / 04` to create a deliberate scan order without introducing a wide table. Each route should retain a direct repository action, a direct source action, and one primary-language signal.
+
 ## Interaction Philosophy
 
 Every prominent visual item is a link to a concrete source. The field log uses GitHub’s native disclosure control. Live stats are wrapped in profile or repository links rather than being dead visual cards.
