@@ -124,11 +124,23 @@ Password intelligence, contextual risk reading, and local-first interface work. 
 
 [OPEN REPOSITORY →](https://github.com/theneotic/tight-secure) · [VIEW SOURCE →](https://github.com/theneotic/tight-secure/tree/main)
 
-### `RACE / 02` · [F1 Telemetry Dashboard](https://github.com/theneotic/f1-telemetry-dashboard)
+### `LEDGER / 02` · [Ledgerly](https://github.com/theneotic/ledgerly)
 
-A telemetry-oriented dashboard for turning racing data into readable visual signal. <a href="https://developer.mozilla.org/docs/Web/HTML"><img src="https://img.shields.io/badge/HTML-0B1120?style=flat-square&amp;logo=html5&amp;logoColor=FF7A59" alt="HTML" /></a>
+A TypeScript budget-management system with recurring rules and account-isolated records. <a href="https://www.typescriptlang.org/docs/"><img src="https://img.shields.io/badge/TYPESCRIPT-0B1120?style=flat-square&amp;logo=typescript&amp;logoColor=64C8FF" alt="TypeScript" /></a>
 
-[OPEN REPOSITORY →](https://github.com/theneotic/f1-telemetry-dashboard) · [VIEW SOURCE →](https://github.com/theneotic/f1-telemetry-dashboard/tree/master)
+[OPEN REPOSITORY →](https://github.com/theneotic/ledgerly) · [VIEW SOURCE →](https://github.com/theneotic/ledgerly/tree/main)
+
+### `ARCHIVE / 03` · [Universal Backup](https://github.com/theneotic/universal-backup-merger-web)
+
+A TypeScript web route for bringing universal backup-merging work into one focused interface. <a href="https://www.typescriptlang.org/docs/"><img src="https://img.shields.io/badge/TYPESCRIPT-0B1120?style=flat-square&amp;logo=typescript&amp;logoColor=64C8FF" alt="TypeScript" /></a>
+
+[OPEN REPOSITORY →](https://github.com/theneotic/universal-backup-merger-web) · [VIEW SOURCE →](https://github.com/theneotic/universal-backup-merger-web/tree/main)
+
+### `MERGE / 04` · [Universal Backup Core](https://github.com/theneotic/universal-backup-merger)
+
+A Python core repository for universal backup-merging workflows. <a href="https://docs.python.org/3/"><img src="https://img.shields.io/badge/PYTHON-0B1120?style=flat-square&amp;logo=python&amp;logoColor=FF7A59" alt="Python" /></a>
+
+[OPEN REPOSITORY →](https://github.com/theneotic/universal-backup-merger) · [VIEW SOURCE →](https://github.com/theneotic/universal-backup-merger/tree/main)
 
 <p align="center"><sub><code>ALL ROUTES OPEN IN GITHUB · NO PORTFOLIO LAYER BETWEEN THE WORK AND THE SOURCE</code></sub></p>
 
