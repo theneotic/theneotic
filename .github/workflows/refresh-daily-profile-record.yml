@@ -1,7 +1,7 @@
 name: Refresh Daily Profile Record
 
-# Scheduled workflows execute from the repository default branch. This file is
-# designed to run there while checking out and updating the Glyph Ledger sub2 branch.
+# Scheduled workflows execute from the repository default branch (main).
+# Bounded profile metrics and visitor activity heatmaps are committed directly as theneotic.
 on:
   schedule:
     - cron: "17 5 * * *"
@@ -14,10 +14,9 @@ jobs:
   refresh-profile-record:
     runs-on: ubuntu-latest
     steps:
-      - name: Check out Glyph Ledger branch
+      - name: Check out repository
         uses: actions/checkout@v4
         with:
-          ref: sub2
           fetch-depth: 0
 
       - name: Set up Node.js
@@ -36,4 +35,4 @@ jobs:
           git config user.email "157010181+theneotic@users.noreply.github.com"
           git add README.md data/visitor-activity.json assets/visitor-activity-heatmap.svg
           git diff --cached --quiet || git commit -m "chore: refresh daily profile record"
-          git push origin HEAD:sub2
+          git push origin HEAD:main

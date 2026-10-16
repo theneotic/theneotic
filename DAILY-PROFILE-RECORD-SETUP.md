@@ -4,19 +4,17 @@ The workflow refreshes only the `PROFILE_RECORD` marker region in `README.md`. I
 
 It also captures the current total from the existing visitor counter once per day. The workflow writes its own visitor history to `data/visitor-activity.json` and renders `assets/visitor-activity-heatmap.svg`. The heatmap has no retroactive visitor history: it begins with the first successful daily sample after activation and labels unobserved days honestly.
 
-It uses the `theneotic <157010181+theneotic@users.noreply.github.com>` commit identity, so weekly record commits remain attributed to **theneotic**, not a bot.
+It uses the `theneotic <157010181+theneotic@users.noreply.github.com>` commit identity, so record commits remain attributed to **theneotic**, not a bot.
 
-## Important branch requirement
+## Branch Execution
 
-GitHub runs scheduled workflows only from the repository’s **default branch**. The current default branch is `main`, while the Glyph Ledger profile work is on `sub2`.
+GitHub runs scheduled workflows from the repository’s default branch (`main`).
+The workflow operates on `main` and pushes its bounded README updates, visitor history, and heatmap output back to `main`.
 
-The included workflow intentionally checks out `sub2` and pushes its bounded README, visitor history, and heatmap output back to `sub2`. For the daily 05:17 UTC schedule to activate, copy or merge only `.github/workflows/refresh-daily-profile-record.yml` into `main`. This does **not** require moving the Glyph Ledger README itself to `main`.
+## Verification Checklist
 
-## First-run checklist
+1. Verify that `.github/workflows/refresh-daily-profile-record.yml` targets `main`.
+2. In the GitHub Actions tab, trigger **Refresh Daily Profile Record** manually via `workflow_dispatch`.
+3. Confirm that the resulting `chore: refresh daily profile record` commit cleanly updates only the `PROFILE_RECORD` marker region, `data/visitor-activity.json`, and `assets/visitor-activity-heatmap.svg`.
 
-1. Commit and push the local `sub2` files when ready.
-2. Put the workflow file on `main` so GitHub can schedule it.
-3. In the Actions page, run **Refresh Daily Profile Record** once manually.
-4. Confirm that the resulting `chore: refresh daily profile record` commit is on `sub2` and that only the `PROFILE_RECORD` marker region, `data/visitor-activity.json`, and `assets/visitor-activity-heatmap.svg` changed.
-
-The workflow makes no commit when the generated record is unchanged. The daily timestamp normally changes, so a daily refresh commit is expected.
+The workflow skips committing if the generated record is unchanged.
