@@ -1,45 +1,145 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1900" height="500" viewBox="0 0 1900 500" role="img" aria-labelledby="title desc">
   <title id="title">THE / NEOTIC — Glyph Ledger</title>
-  <desc id="desc">A technical editorial banner with a luminous animated signal border, scanline, and THE NEOTIC wordmark.</desc>
+  <desc id="desc">A technical editorial banner with a luminous animated signal border, scanline, telemetry HUD, and THE NEOTIC monogram.</desc>
   <defs>
     <linearGradient id="surface" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#070B13"/>
       <stop offset="0.55" stop-color="#0B1120"/>
-      <stop offset="1" stop-color="#120D18"/>
+      <stop offset="1" stop-color="#111625"/>
     </linearGradient>
     <linearGradient id="signal" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="#64C8FF"/>
       <stop offset="0.48" stop-color="#E6EDF3"/>
       <stop offset="1" stop-color="#FF7A59"/>
     </linearGradient>
+    <linearGradient id="hud-glow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#64C8FF" stop-opacity="0.08"/>
+      <stop offset="1" stop-color="#64C8FF" stop-opacity="0.01"/>
+    </linearGradient>
     <filter id="glow" x="-20%" y="-30%" width="140%" height="160%">
-      <feGaussianBlur stdDeviation="7" result="soft"/>
+      <feGaussianBlur stdDeviation="6" result="soft"/>
       <feMerge>
         <feMergeNode in="soft"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
+    <pattern id="grid-dots" x="0" y="0" width="32" height="32" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#30363D" opacity="0.45"/>
+    </pattern>
   </defs>
+
+  <!-- Base background -->
   <rect width="1900" height="500" rx="28" fill="url(#surface)"/>
-  <rect x="22" y="22" width="1856" height="456" rx="18" fill="none" stroke="#30363D" stroke-width="2"/>
-  <rect x="31" y="31" width="1838" height="438" rx="14" fill="none" stroke="url(#signal)" stroke-width="3" stroke-linecap="round" stroke-dasharray="250 7600" filter="url(#glow)">
-    <animate attributeName="stroke-dashoffset" values="0;-7850" dur="6s" repeatCount="indefinite"/>
+  <!-- Subtle grid pattern inside frame -->
+  <rect x="22" y="22" width="1856" height="456" rx="18" fill="url(#grid-dots)"/>
+
+  <!-- Static Outer Guide Border -->
+  <rect x="22" y="22" width="1856" height="456" rx="18" fill="none" stroke="#212836" stroke-width="1.5"/>
+
+  <!-- Animated Glowing Signal Border -->
+  <rect x="31" y="31" width="1838" height="438" rx="14" fill="none" stroke="url(#signal)" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="280 7500" filter="url(#glow)">
+    <animate attributeName="stroke-dashoffset" values="0;-7780" dur="7s" repeatCount="indefinite"/>
   </rect>
-  <line x1="58" y1="72" x2="1842" y2="72" stroke="#64C8FF" stroke-width="2" opacity="0.16">
-    <animate attributeName="y1" values="72;428;72" dur="5s" repeatCount="indefinite"/>
-    <animate attributeName="y2" values="72;428;72" dur="5s" repeatCount="indefinite"/>
+
+  <!-- Radar Scanline Sweep -->
+  <line x1="58" y1="72" x2="1842" y2="72" stroke="#64C8FF" stroke-width="1.5" opacity="0.15">
+    <animate attributeName="y1" values="72;428;72" dur="5.5s" repeatCount="indefinite"/>
+    <animate attributeName="y2" values="72;428;72" dur="5.5s" repeatCount="indefinite"/>
   </line>
+
+  <!-- Corner Calibration Crosshairs -->
+  <g stroke="#64C8FF" stroke-width="1.5" opacity="0.65">
+    <!-- TL -->
+    <path d="M48 42v18M42 48h18"/>
+    <!-- TR -->
+    <path d="M1852 42v18M1842 48h18"/>
+    <!-- BL -->
+    <path d="M48 440v18M42 450h18"/>
+    <!-- BR -->
+    <path d="M1852 440v18M1842 450h18"/>
+  </g>
+
+  <!-- Top Telemetry Header Rail -->
+  <g font-family="ui-monospace, 'JetBrains Mono', Menlo, Consolas, monospace" font-size="11" letter-spacing="2" fill="#6E7681">
+    <text x="82" y="52">SYS.ID: THE-NEOTIC // GLYPH-LEDGER</text>
+    <text x="680" y="52">LAT: 19°04'N · LON: 72°52'E [BOM]</text>
+    <text x="1360" y="52">KERNEL: LOCAL-FIRST · ARCH: INDEPENDENT</text>
+  </g>
+  <line x1="58" y1="66" x2="1842" y2="66" stroke="#212836" stroke-width="1"/>
+
+  <!-- Main Monogram (Linear N Glyph) -->
   <g fill="none" stroke="#E6EDF3" stroke-linecap="square" stroke-linejoin="miter">
     <path d="M106 350V150L286 350V150" stroke-width="18"/>
     <path d="M126 350V182L266 322V150" stroke="#64C8FF" stroke-width="7"/>
   </g>
-  <rect x="338" y="149" width="2" height="202" fill="#30363D"/>
-  <text x="395" y="292" fill="#E6EDF3" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="116" font-weight="700" letter-spacing="19">THE</text>
-  <text x="765" y="292" fill="#FF7A59" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="116" font-weight="400">/</text>
-  <text x="855" y="292" fill="#E6EDF3" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="116" font-weight="700" letter-spacing="19">NEOTIC</text>
-  <line x1="398" y1="334" x2="1497" y2="334" stroke="#30363D" stroke-width="3"/>
-  <circle cx="1514" cy="334" r="6" fill="#64C8FF" filter="url(#glow)">
-    <animate attributeName="opacity" values="0.45;1;0.45" dur="1.6s" repeatCount="indefinite"/>
+
+  <!-- Vertical Divider with calibration marks -->
+  <rect x="336" y="146" width="2" height="208" fill="#30363D"/>
+  <circle cx="337" cy="152" r="2.5" fill="#64C8FF"/>
+  <circle cx="337" cy="250" r="2.5" fill="#8B949E"/>
+  <circle cx="337" cy="348" r="2.5" fill="#FF7A59"/>
+
+  <!-- Main Logotype -->
+  <text x="385" y="285" fill="#F0F6FC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', Roboto, sans-serif" font-size="110" font-weight="800" letter-spacing="18">THE</text>
+  <text x="730" y="285" fill="#FF7A59" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', Roboto, sans-serif" font-size="110" font-weight="300">/</text>
+  <text x="815" y="285" fill="#F0F6FC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', Roboto, sans-serif" font-size="110" font-weight="800" letter-spacing="18">NEOTIC</text>
+
+  <!-- Horizontal Axis Divider -->
+  <line x1="388" y1="326" x2="1400" y2="326" stroke="#30363D" stroke-width="2"/>
+  <circle cx="1416" cy="326" r="5" fill="#64C8FF" filter="url(#glow)">
+    <animate attributeName="opacity" values="0.35;1;0.35" dur="1.8s" repeatCount="indefinite"/>
   </circle>
-  <text x="400" y="388" fill="#8B949E" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="22" letter-spacing="6">GLYPH LEDGER · INDEPENDENT SYSTEMS · SIGNAL FRAME ACTIVE</text>
+
+  <!-- Sub-discipline Monospace Readout -->
+  <text x="390" y="376" fill="#8B949E" font-family="ui-monospace, 'JetBrains Mono', Menlo, Consolas, monospace" font-size="19" letter-spacing="5">BUILD · SECURE · OBSERVE // PURPOSE-BUILT SYSTEMS</text>
+
+  <!-- Right Sector: Precision HUD Telemetry Box -->
+  <g transform="translate(1440, 142)">
+    <rect width="390" height="212" rx="10" fill="url(#hud-glow)" stroke="#30363D" stroke-width="1.5"/>
+    
+    <!-- HUD Header Bar -->
+    <rect x="0" y="0" width="390" height="34" rx="10" fill="#0D1424"/>
+    <rect x="0" y="24" width="390" height="10" fill="#0D1424"/>
+    <line x1="0" y1="34" x2="390" y2="34" stroke="#212836" stroke-width="1"/>
+
+    <!-- Pulsing Live Indicator -->
+    <circle cx="22" cy="17" r="4" fill="#64C8FF" filter="url(#glow)">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="1.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="22" cy="17" r="8" fill="none" stroke="#64C8FF" stroke-width="1" opacity="0.4">
+      <animate attributeName="r" values="4;12;4" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.6;0;0.6" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="38" y="21" fill="#64C8FF" font-family="ui-monospace, 'JetBrains Mono', Menlo, monospace" font-size="11" font-weight="700" letter-spacing="1.5">NODE STATE: ONLINE</text>
+    <text x="300" y="21" fill="#6E7681" font-family="ui-monospace, 'JetBrains Mono', Menlo, monospace" font-size="10" letter-spacing="1">TX.ACTIVE</text>
+
+    <!-- Telemetry Metric Rows -->
+    <g font-family="ui-monospace, 'JetBrains Mono', Menlo, monospace" font-size="11" letter-spacing="1">
+      <text x="20" y="64" fill="#6E7681">ENV</text>
+      <text x="110" y="64" fill="#E6EDF3" font-weight="600">LOCAL-FIRST / ZERO-LEAK</text>
+
+      <text x="20" y="94" fill="#6E7681">STACK</text>
+      <text x="110" y="94" fill="#64C8FF">TS · PY · REACT · VITE</text>
+
+      <text x="20" y="124" fill="#6E7681">FOCUS</text>
+      <text x="110" y="124" fill="#E6EDF3">SECURITY &amp; CRYPTOGRAPHY</text>
+
+      <text x="20" y="154" fill="#6E7681">SPEECH</text>
+      <text x="110" y="154" fill="#FF7A59">FASTER-WHISPER / LOCAL</text>
+
+      <text x="20" y="184" fill="#6E7681">INDEX</text>
+      <text x="110" y="184" fill="#8B949E">17 REPOSITORIES DISPATCHED</text>
+    </g>
+
+    <!-- Subtle accent ticks on HUD box -->
+    <path d="M-1 20v-10h10M381 0h10v10M391 202v10h-10M9 212H-1v-10" stroke="#64C8FF" stroke-width="1.5" fill="none"/>
+  </g>
+
+  <!-- Bottom Coordinates & Integrity Status -->
+  <line x1="58" y1="444" x2="1842" y2="444" stroke="#212836" stroke-width="1"/>
+  <g font-family="ui-monospace, 'JetBrains Mono', Menlo, Consolas, monospace" font-size="11" letter-spacing="2" fill="#6E7681">
+    <text x="82" y="464">INDEX: 0x7468656E656F746963</text>
+    <text x="780" y="464">DISPATCH: PUBLIC REPOSITORIES</text>
+    <text x="1420" y="464">VERIFIED SIGNATURE // THE-NEOTIC</text>
+  </g>
 </svg>
