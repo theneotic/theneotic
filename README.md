@@ -52,34 +52,23 @@ Every repository across this profile is engineered as verifiable proof of first-
 
 > Complete inspectable source code open sourced across [github.com/theneotic?tab=repositories](https://github.com/theneotic?tab=repositories)
 
-<table width="100%">
-  <thead>
-    <tr>
-      <th align="center" width="33.3%"><strong>01 // MONOLITH VAULT</strong></th>
-      <th align="center" width="33.3%"><strong>02 // F1 TELEMETRY HUD</strong></th>
-      <th align="center" width="33.3%"><strong>03 // CLEARCUT VISION</strong></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td align="center">
-        <a href="https://github.com/theneotic/Monolith-Vault">
-          <img src="./assets/project-monolith-vault.svg" alt="Monolith Vault Card" width="100%" />
-        </a>
-      </td>
-      <td align="center">
-        <a href="https://github.com/theneotic/f1-telemetry-dashboard">
-          <img src="./assets/project-f1-telemetry.svg" alt="F1 Telemetry Card" width="100%" />
-        </a>
-      </td>
-      <td align="center">
-        <a href="https://github.com/theneotic/clearcut">
-          <img src="./assets/project-clearcut.svg" alt="Clearcut Vision Card" width="100%" />
-        </a>
-      </td>
-    </tr>
-  </tbody>
-</table>
+<p align="center">
+  <a href="https://github.com/theneotic/Monolith-Vault">
+    <img src="./assets/node-01-vault.svg" alt="Node 01 // Monolith Vault Hardware Unit" width="100%" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/theneotic/f1-telemetry-dashboard">
+    <img src="./assets/node-02-telemetry.svg" alt="Node 02 // F1 Live Telemetry HUD Hardware Unit" width="100%" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/theneotic/clearcut">
+    <img src="./assets/node-03-clearcut.svg" alt="Node 03 // Clearcut Vision Hardware Unit" width="100%" />
+  </a>
+</p>
 
 <br />
 
