@@ -5,9 +5,10 @@
 <p align="center">
   <a href="https://github.com/theneotic?tab=repositories"><img src="https://img.shields.io/badge/REPOSITORIES-111318?style=for-the-badge&amp;logo=git&amp;logoColor=FF2A2A" alt="Repositories" /></a>
   <a href="#01--architectural-standards"><img src="https://img.shields.io/badge/STANDARDS-111318?style=for-the-badge&amp;logo=blueprint&amp;logoColor=00E5FF" alt="Standards" /></a>
-  <a href="#03--public-projects-shared"><img src="https://img.shields.io/badge/PROJECTS-111318?style=for-the-badge&amp;logo=target&amp;logoColor=10B981" alt="Projects" /></a>
-  <a href="#04--telemetry-trace"><img src="https://img.shields.io/badge/TELEMETRY-111318?style=for-the-badge&amp;logo=speedtest&amp;logoColor=FF2A2A" alt="Telemetry" /></a>
-  <a href="#05--direct-directory"><img src="https://img.shields.io/badge/CONTACT-111318?style=for-the-badge&amp;logo=discord&amp;logoColor=00E5FF" alt="Contact" /></a>
+  <a href="#02--runtime-toolchain"><img src="https://img.shields.io/badge/TOOLCHAIN-111318?style=for-the-badge&amp;logo=cpu&amp;logoColor=FF2A2A" alt="Toolchain" /></a>
+  <a href="#03--verified-production-repositories"><img src="https://img.shields.io/badge/PROJECTS-111318?style=for-the-badge&amp;logo=target&amp;logoColor=10B981" alt="Projects" /></a>
+  <a href="#04--telemetry-trace"><img src="https://img.shields.io/badge/TELEMETRY-111318?style=for-the-badge&amp;logo=speedtest&amp;logoColor=00E5FF" alt="Telemetry" /></a>
+  <a href="#05--direct-directory"><img src="https://img.shields.io/badge/CONTACT-111318?style=for-the-badge&amp;logo=discord&amp;logoColor=10B981" alt="Contact" /></a>
 </p>
 
 <br />
@@ -31,24 +32,11 @@ Every repository across this profile is engineered as verifiable proof of first-
 
 <br />
 
-<a id="02--languages-frameworks"></a>
-## 02 // 使用している言語とフレームワーク · Languages &amp; Frameworks
+<a id="02--runtime-toolchain"></a>
+## 02 // SYSTEMS ARCHITECTURE &amp; RUNTIME TOOLCHAIN
 
 <p align="center">
-  <a href="https://www.typescriptlang.org/"><img src="https://skillicons.dev/icons?i=ts&amp;theme=dark" alt="TypeScript" height="46" /></a>
-  <a href="https://developer.mozilla.org/docs/Web/JavaScript"><img src="https://skillicons.dev/icons?i=js&amp;theme=dark" alt="JavaScript" height="46" /></a>
-  <a href="https://www.python.org/"><img src="https://skillicons.dev/icons?i=python&amp;theme=dark" alt="Python" height="46" /></a>
-  <a href="https://en.cppreference.com/w/c"><img src="https://skillicons.dev/icons?i=c&amp;theme=dark" alt="C" height="46" /></a>
-  <a href="https://www.java.com/"><img src="https://skillicons.dev/icons?i=java&amp;theme=dark" alt="Java" height="46" /></a>
-  <a href="https://react.dev/"><img src="https://skillicons.dev/icons?i=react&amp;theme=dark" alt="React" height="46" /></a>
-  <a href="https://nodejs.org/"><img src="https://skillicons.dev/icons?i=nodejs&amp;theme=dark" alt="Node.js" height="46" /></a>
-  <a href="https://www.postgresql.org/"><img src="https://skillicons.dev/icons?i=postgres&amp;theme=dark" alt="PostgreSQL" height="46" /></a>
-  <a href="https://supabase.com/"><img src="https://skillicons.dev/icons?i=supabase&amp;theme=dark" alt="Supabase" height="46" /></a>
-  <a href="https://www.mongodb.com/"><img src="https://skillicons.dev/icons?i=mongodb&amp;theme=dark" alt="MongoDB" height="46" /></a>
-  <a href="https://git-scm.com/"><img src="https://skillicons.dev/icons?i=git&amp;theme=dark" alt="Git" height="46" /></a>
-  <a href="https://github.com/"><img src="https://skillicons.dev/icons?i=github&amp;theme=dark" alt="GitHub" height="46" /></a>
-  <a href="https://www.docker.com/"><img src="https://skillicons.dev/icons?i=docker&amp;theme=dark" alt="Docker" height="46" /></a>
-  <a href="https://www.linux.org/"><img src="https://skillicons.dev/icons?i=linux&amp;theme=dark" alt="Linux" height="46" /></a>
+  <img src="./assets/toolchain-spec.svg" alt="The-Neotic // Systems Architecture &amp; Runtime Toolchain Matrix" width="100%" />
 </p>
 
 <br />
@@ -59,10 +47,10 @@ Every repository across this profile is engineered as verifiable proof of first-
 
 <br />
 
-<a id="03--public-projects-shared"></a>
-## 03 // 公開プロジェクト · Public Projects Shared
+<a id="03--verified-production-repositories"></a>
+## 03 // VERIFIED PRODUCTION REPOSITORIES
 
-> Full list open sourced in [github.com/theneotic?tab=repositories](https://github.com/theneotic?tab=repositories)
+> Complete inspectable source code open sourced across [github.com/theneotic?tab=repositories](https://github.com/theneotic?tab=repositories)
 
 <table width="100%">
   <thead>

@@ -1,0 +1,239 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1060" height="215" viewBox="0 0 1060 215" role="img" aria-labelledby="title desc">
+  <title id="title">The-Neotic // Systems Architecture &amp; Toolchain Specification</title>
+  <desc id="desc">Modular hardware rack detailing systems logic, client cryptography, data pipelines, and infrastructure runtimes.</desc>
+
+  <defs>
+    <style>
+      .mono { font-family: 'JetBrains Mono', 'Fira Code', Menlo, Consolas, monospace; }
+      .sans { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+      @keyframes pulse-led {
+        0%, 100% { opacity: 1; transform: scale(1); }
+        50% { opacity: 0.4; transform: scale(0.9); }
+      }
+      .led-pulse { animation: pulse-led 2s ease-in-out infinite; }
+    </style>
+
+    <!-- Subtle Dot Grid Pattern -->
+    <pattern id="rack-dots" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="0.75" fill="#1F2430" opacity="0.6"/>
+    </pattern>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="1060" height="215" fill="#0A0B0E"/>
+
+  <!-- Technical Grid Overlay -->
+  <rect x="8" y="8" width="1044" height="199" rx="4" fill="url(#rack-dots)"/>
+
+  <!-- Outer Spec Frame -->
+  <rect x="8" y="8" width="1044" height="199" rx="4" fill="none" stroke="#1F2430" stroke-width="1.2"/>
+
+  <!-- Corner Calibration Marks -->
+  <g stroke="#374151" stroke-width="1.2" opacity="0.8">
+    <path d="M 16 16 L 16 24 M 16 16 L 24 16"/>
+    <path d="M 1044 16 L 1044 24 M 1044 16 L 1036 16"/>
+    <path d="M 16 199 L 16 191 M 16 199 L 24 199"/>
+    <path d="M 1044 199 L 1044 191 M 1044 199 L 1036 199"/>
+  </g>
+
+  <!-- ================= TOP SPEC BAR ================= -->
+  <line x1="10" y1="36" x2="1050" y2="36" stroke="#1F2430" stroke-width="1"/>
+
+  <g class="mono" font-size="10.5" font-weight="600" letter-spacing="1.2">
+    <!-- Left Section Spec Tag -->
+    <text x="24" y="26" fill="#71717A">TOOLCHAIN.SPEC // <tspan fill="#F3F4F6">HARDWARE RUNTIME MATRIX</tspan></text>
+
+    <!-- Center Pulse Status -->
+    <text x="430" y="26" fill="#71717A">STATUS: [ </text>
+    <circle cx="496" cy="22.5" r="3" fill="#10B981" class="led-pulse"/>
+    <text x="506" y="26" fill="#10B981" font-weight="700">VERIFIED RUNTIME // TYPE-CHECKED</text>
+    <text x="768" y="26" fill="#71717A"> ]</text>
+
+    <!-- Right Determinism Readout -->
+    <text x="860" y="26" fill="#71717A">STATE: <tspan fill="#00E5FF">100% DETERMINISTIC</tspan></text>
+  </g>
+
+  <!-- ================= BAY 01 // SYSTEMS & LOGIC ================= -->
+  <g transform="translate(20, 46)">
+    <!-- Bay Shell -->
+    <rect width="245" height="152" rx="4" fill="#0D0F14" stroke="#1F2430" stroke-width="1"/>
+    
+    <!-- Bay Header -->
+    <text x="12" y="20" class="mono" font-size="10.5" font-weight="700" fill="#FF2A2A" letter-spacing="1">BAY 01 // SYSTEMS &amp; LOGIC</text>
+    <line x1="10" y1="28" x2="235" y2="28" stroke="#1F2430" stroke-width="1"/>
+
+    <!-- Chip 1: C -->
+    <g transform="translate(10, 34)">
+      <rect width="225" height="24" rx="3" fill="#13161F" stroke="#1E2433" stroke-width="1"/>
+      <rect width="3" height="24" rx="1.5" fill="#FF2A2A"/>
+      <text x="10" y="16" class="mono" font-size="11" font-weight="700" fill="#F3F4F6">C</text>
+      <text x="32" y="16" class="mono" font-size="9" fill="#71717A">// MEMORY-SAFE / POSIX</text>
+      <text x="195" y="16" class="mono" font-size="9" font-weight="600" fill="#10B981">[OK]</text>
+    </g>
+
+    <!-- Chip 2: Python -->
+    <g transform="translate(10, 63)">
+      <rect width="225" height="24" rx="3" fill="#13161F" stroke="#1E2433" stroke-width="1"/>
+      <rect width="3" height="24" rx="1.5" fill="#FF2A2A"/>
+      <text x="10" y="16" class="mono" font-size="11" font-weight="700" fill="#F3F4F6">PYTHON</text>
+      <text x="64" y="16" class="mono" font-size="9" fill="#71717A">// LOCAL AI / AST</text>
+      <text x="195" y="16" class="mono" font-size="9" font-weight="600" fill="#10B981">[OK]</text>
+    </g>
+
+    <!-- Chip 3: Java (JVM) -->
+    <g transform="translate(10, 92)">
+      <rect width="225" height="24" rx="3" fill="#13161F" stroke="#1E2433" stroke-width="1"/>
+      <rect width="3" height="24" rx="1.5" fill="#FF2A2A"/>
+      <text x="10" y="16" class="mono" font-size="11" font-weight="700" fill="#F3F4F6">JAVA</text>
+      <text x="46" y="16" class="mono" font-size="9" fill="#71717A">// FABRIC JVM HOOKS</text>
+      <text x="195" y="16" class="mono" font-size="9" font-weight="600" fill="#10B981">[OK]</text>
+    </g>
+
+    <!-- Chip 4: Algorithms -->
+    <g transform="translate(10, 121)">
+      <rect width="225" height="24" rx="3" fill="#13161F" stroke="#1E2433" stroke-width="1"/>
+      <rect width="3" height="24" rx="1.5" fill="#FF2A2A"/>
+      <text x="10" y="16" class="mono" font-size="11" font-weight="700" fill="#F3F4F6">ALGORITHMS</text>
+      <text x="96" y="16" class="mono" font-size="9" fill="#71717A">// STATE LOGIC</text>
+      <text x="195" y="16" class="mono" font-size="9" font-weight="600" fill="#10B981">[OK]</text>
+    </g>
+  </g>
+
+  <!-- ================= BAY 02 // WEB & CRYPTO ================= -->
+  <g transform="translate(277, 46)">
+    <!-- Bay Shell -->
+    <rect width="245" height="152" rx="4" fill="#0D0F14" stroke="#1F2430" stroke-width="1"/>
+    
+    <!-- Bay Header -->
+    <text x="12" y="20" class="mono" font-size="10.5" font-weight="700" fill="#00E5FF" letter-spacing="1">BAY 02 // WEB &amp; CRYPTO</text>
+    <line x1="10" y1="28" x2="235" y2="28" stroke="#1F2430" stroke-width="1"/>
+
+    <!-- Chip 1: TypeScript -->
+    <g transform="translate(10, 34)">
+      <rect width="225" height="24" rx="3" fill="#13161F" stroke="#1E2433" stroke-width="1"/>
+      <rect width="3" height="24" rx="1.5" fill="#00E5FF"/>
+      <text x="10" y="16" class="mono" font-size="11" font-weight="700" fill="#00E5FF">TYPESCRIPT</text>
+      <text x="88" y="16" class="mono" font-size="9" fill="#71717A">// STRICT TYPING</text>
+      <text x="195" y="16" class="mono" font-size="9" font-weight="600" fill="#00E5FF">[TS]</text>
+    </g>
+
+    <!-- Chip 2: Vanilla JavaScript -->
+    <g transform="translate(10, 63)">
+      <rect width="225" height="24" rx="3" fill="#13161F" stroke="#1E2433" stroke-width="1"/>
+      <rect width="3" height="24" rx="1.5" fill="#00E5FF"/>
+      <text x="10" y="16" class="mono" font-size="11" font-weight="700" fill="#F3F4F6">VANILLA JS</text>
+      <text x="86" y="16" class="mono" font-size="9" fill="#71717A">// 0-DEP PRISTINE</text>
+      <text x="195" y="16" class="mono" font-size="9" font-weight="600" fill="#10B981">[OK]</text>
+    </g>
+
+    <!-- Chip 3: WebCrypto API -->
+    <g transform="translate(10, 92)">
+      <rect width="225" height="24" rx="3" fill="#13161F" stroke="#1E2433" stroke-width="1"/>
+      <rect width="3" height="24" rx="1.5" fill="#00E5FF"/>
+      <text x="10" y="16" class="mono" font-size="11" font-weight="700" fill="#F3F4F6">WEBCRYPTO</text>
+      <text x="84" y="16" class="mono" font-size="9" fill="#71717A">// CLIENT CIPHER</text>
+      <text x="189" y="16" class="mono" font-size="9" font-weight="600" fill="#00E5FF">[SHA]</text>
+    </g>
+
+    <!-- Chip 4: Canvas HUD -->
+    <g transform="translate(10, 121)">
+      <rect width="225" height="24" rx="3" fill="#13161F" stroke="#1E2433" stroke-width="1"/>
+      <rect width="3" height="24" rx="1.5" fill="#00E5FF"/>
+      <text x="10" y="16" class="mono" font-size="11" font-weight="700" fill="#F3F4F6">CANVAS HUD</text>
+      <text x="86" y="16" class="mono" font-size="9" fill="#71717A">// 60HZ STREAM</text>
+      <text x="187" y="16" class="mono" font-size="9" font-weight="600" fill="#00E5FF">[60H]</text>
+    </g>
+  </g>
+
+  <!-- ================= BAY 03 // DATA & PIPELINES ================= -->
+  <g transform="translate(534, 46)">
+    <!-- Bay Shell -->
+    <rect width="245" height="152" rx="4" fill="#0D0F14" stroke="#1F2430" stroke-width="1"/>
+    
+    <!-- Bay Header -->
+    <text x="12" y="20" class="mono" font-size="10.5" font-weight="700" fill="#10B981" letter-spacing="1">BAY 03 // DATA &amp; PIPELINES</text>
+    <line x1="10" y1="28" x2="235" y2="28" stroke="#1F2430" stroke-width="1"/>
+
+    <!-- Chip 1: PostgreSQL -->
+    <g transform="translate(10, 34)">
+      <rect width="225" height="24" rx="3" fill="#13161F" stroke="#1E2433" stroke-width="1"/>
+      <rect width="3" height="24" rx="1.5" fill="#10B981"/>
+      <text x="10" y="16" class="mono" font-size="11" font-weight="700" fill="#F3F4F6">POSTGRESQL</text>
+      <text x="92" y="16" class="mono" font-size="9" fill="#71717A">// ACID SCHEMA</text>
+      <text x="195" y="16" class="mono" font-size="9" font-weight="600" fill="#10B981">[SQL]</text>
+    </g>
+
+    <!-- Chip 2: Supabase -->
+    <g transform="translate(10, 63)">
+      <rect width="225" height="24" rx="3" fill="#13161F" stroke="#1E2433" stroke-width="1"/>
+      <rect width="3" height="24" rx="1.5" fill="#10B981"/>
+      <text x="10" y="16" class="mono" font-size="11" font-weight="700" fill="#F3F4F6">SUPABASE</text>
+      <text x="74" y="16" class="mono" font-size="9" fill="#71717A">// REALTIME / RLS</text>
+      <text x="195" y="16" class="mono" font-size="9" font-weight="600" fill="#10B981">[OK]</text>
+    </g>
+
+    <!-- Chip 3: MongoDB Atlas -->
+    <g transform="translate(10, 92)">
+      <rect width="225" height="24" rx="3" fill="#13161F" stroke="#1E2433" stroke-width="1"/>
+      <rect width="3" height="24" rx="1.5" fill="#10B981"/>
+      <text x="10" y="16" class="mono" font-size="11" font-weight="700" fill="#F3F4F6">MONGODB</text>
+      <text x="70" y="16" class="mono" font-size="9" fill="#71717A">// DOCUMENT CLUST</text>
+      <text x="195" y="16" class="mono" font-size="9" font-weight="600" fill="#10B981">[OK]</text>
+    </g>
+
+    <!-- Chip 4: Stream Queues -->
+    <g transform="translate(10, 121)">
+      <rect width="225" height="24" rx="3" fill="#13161F" stroke="#1E2433" stroke-width="1"/>
+      <rect width="3" height="24" rx="1.5" fill="#10B981"/>
+      <text x="10" y="16" class="mono" font-size="11" font-weight="700" fill="#F3F4F6">TELEMETRY</text>
+      <text x="82" y="16" class="mono" font-size="9" fill="#71717A">// BUFFER PIPELINE</text>
+      <text x="189" y="16" class="mono" font-size="9" font-weight="600" fill="#10B981">[RAW]</text>
+    </g>
+  </g>
+
+  <!-- ================= BAY 04 // PLATFORM & INFRA ================= -->
+  <g transform="translate(791, 46)">
+    <!-- Bay Shell -->
+    <rect width="245" height="152" rx="4" fill="#0D0F14" stroke="#1F2430" stroke-width="1"/>
+    
+    <!-- Bay Header -->
+    <text x="12" y="20" class="mono" font-size="10.5" font-weight="700" fill="#94A3B8" letter-spacing="1">BAY 04 // PLATFORM &amp; INFRA</text>
+    <line x1="10" y1="28" x2="235" y2="28" stroke="#1F2430" stroke-width="1"/>
+
+    <!-- Chip 1: Linux -->
+    <g transform="translate(10, 34)">
+      <rect width="225" height="24" rx="3" fill="#13161F" stroke="#1E2433" stroke-width="1"/>
+      <rect width="3" height="24" rx="1.5" fill="#94A3B8"/>
+      <text x="10" y="16" class="mono" font-size="11" font-weight="700" fill="#F3F4F6">LINUX</text>
+      <text x="50" y="16" class="mono" font-size="9" fill="#71717A">// POSIX ENVIRONMENT</text>
+      <text x="195" y="16" class="mono" font-size="9" font-weight="600" fill="#10B981">[OK]</text>
+    </g>
+
+    <!-- Chip 2: Docker -->
+    <g transform="translate(10, 63)">
+      <rect width="225" height="24" rx="3" fill="#13161F" stroke="#1E2433" stroke-width="1"/>
+      <rect width="3" height="24" rx="1.5" fill="#94A3B8"/>
+      <text x="10" y="16" class="mono" font-size="11" font-weight="700" fill="#F3F4F6">DOCKER</text>
+      <text x="58" y="16" class="mono" font-size="9" fill="#71717A">// HERMETIC BUILDS</text>
+      <text x="195" y="16" class="mono" font-size="9" font-weight="600" fill="#10B981">[OK]</text>
+    </g>
+
+    <!-- Chip 3: Git -->
+    <g transform="translate(10, 92)">
+      <rect width="225" height="24" rx="3" fill="#13161F" stroke="#1E2433" stroke-width="1"/>
+      <rect width="3" height="24" rx="1.5" fill="#94A3B8"/>
+      <text x="10" y="16" class="mono" font-size="11" font-weight="700" fill="#F3F4F6">GIT</text>
+      <text x="36" y="16" class="mono" font-size="9" fill="#71717A">// ATOMIC DISPATCH</text>
+      <text x="195" y="16" class="mono" font-size="9" font-weight="600" fill="#10B981">[OK]</text>
+    </g>
+
+    <!-- Chip 4: GitHub Actions -->
+    <g transform="translate(10, 121)">
+      <rect width="225" height="24" rx="3" fill="#13161F" stroke="#1E2433" stroke-width="1"/>
+      <rect width="3" height="24" rx="1.5" fill="#94A3B8"/>
+      <text x="10" y="16" class="mono" font-size="11" font-weight="700" fill="#F3F4F6">CI / CD</text>
+      <text x="56" y="16" class="mono" font-size="9" fill="#71717A">// ACTIONS PIPELINE</text>
+      <text x="187" y="16" class="mono" font-size="9" font-weight="600" fill="#00E5FF">[RUN]</text>
+    </g>
+  </g>
+</svg>

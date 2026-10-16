@@ -49,9 +49,9 @@
   </g>
   <line x1="24" y1="46" x2="576" y2="46" stroke="#1F2430" stroke-width="1"/>
 
-  <!-- Japanese Technical Subtitle (Editorial Taste) -->
-  <text x="24" y="82" class="sans" font-size="12" font-weight="500" fill="#71717A" letter-spacing="1">
-    リアルタイム遠隔測定エンジン // 60HZ DETERMINISTIC STREAM
+  <!-- Technical Subtitle Spec -->
+  <text x="24" y="82" class="mono" font-size="11" font-weight="600" fill="#71717A" letter-spacing="1.5">
+    HIGH-FREQUENCY TELEMETRY PIPELINE // 60HZ DETERMINISTIC STREAM
   </text>
 
   <!-- Project Title -->
