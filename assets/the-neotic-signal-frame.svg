@@ -62,7 +62,7 @@
   <!-- Top Telemetry Header Rail -->
   <g font-family="ui-monospace, 'JetBrains Mono', Menlo, Consolas, monospace" font-size="11" letter-spacing="2" fill="#6E7681">
     <text x="82" y="52">SYS.ID: THE-NEOTIC // GLYPH-LEDGER</text>
-    <text x="680" y="52">LAT: 19°04'N · LON: 72°52'E [BOM]</text>
+    <text x="680" y="52">PIPELINE: DETERMINISTIC · STREAM: 60HZ</text>
     <text x="1360" y="52">KERNEL: LOCAL-FIRST · ARCH: INDEPENDENT</text>
   </g>
   <line x1="58" y1="66" x2="1842" y2="66" stroke="#212836" stroke-width="1"/>

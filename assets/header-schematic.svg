@@ -74,8 +74,8 @@
     <text x="460" y="31" fill="#10B981" font-weight="700">ONLINE // ALL SYSTEMS NOMINAL</text>
     <text x="696" y="31" fill="#71717A"> ]</text>
 
-    <!-- Right Telemetry Coordinates -->
-    <text x="825" y="31" fill="#71717A">LOC: <tspan fill="#F3F4F6">19°04'N 72°52'E</tspan> [BOM-IN]</text>
+    <!-- Right System Specification -->
+    <text x="815" y="31" fill="#71717A">ARCH: <tspan fill="#F3F4F6">DISTRIBUTED // BARE-METAL</tspan></text>
   </g>
 
   <!-- ================= MAIN LEFT BLOCK ================= -->

@@ -134,7 +134,7 @@ Every repository across this profile is engineered as verifiable proof of first-
 
 ```text
 ┌────────────────────────────────────────────────────────────────────────┐
-│  The-Neotic (@THENEOTIC) // MUMBAI, IN // BUILD 2026.10                │
+│  The-Neotic (@THENEOTIC) // SYSTEMS & ARCHITECTURE // BUILD 2026.10    │
 │  STATUS: VERIFIED // INSPECTABLE SOURCE // ZERO-BLOAT GUARANTEE        │
 └────────────────────────────────────────────────────────────────────────┘
 ```
