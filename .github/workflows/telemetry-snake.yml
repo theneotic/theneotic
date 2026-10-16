@@ -1,0 +1,38 @@
+name: Telemetry Contribution Trace
+
+on:
+  schedule:
+    # Executes every 12 hours
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  generate-telemetry-trace:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Generate Telemetry Contribution Snake
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: theneotic
+          outputs: |
+            dist/github-snake-dark.svg?color_snake=%23FF2A2A&color_dots=%23111318,%23991B1B,%23DC2626,%23EF4444,%23FF2A2A
+            dist/github-contribution-grid-snake-dark.svg?color_snake=%23FF2A2A&color_dots=%23111318,%23991B1B,%23DC2626,%23EF4444,%23FF2A2A
+
+      - name: Deploy Telemetry Trace to Output Branch
+        uses: crazy-max/ghaction-github-pages@v5
+        with:
+          target_branch: output
+          build_dir: dist
+          keep_history: false
+          author: "theneotic <157010181+theneotic@users.noreply.github.com>"
+          committer: "theneotic <157010181+theneotic@users.noreply.github.com>"
+          commit_message: "chore(telemetry): update contribution trace [skip ci]"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
