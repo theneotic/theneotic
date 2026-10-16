@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/header-schematic.svg" alt="The-Neotic // Engineering Spec Sheet &amp; Telemetry Header" width="100%" />
+  <img src="./assets/header-schematic.svg?v=2" alt="The-Neotic // Engineering Spec Sheet &amp; Telemetry Header" width="100%" />
 </p>
 
 <p align="center">
