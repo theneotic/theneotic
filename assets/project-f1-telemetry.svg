@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="340" viewBox="0 0 600 340" role="img" aria-labelledby="title desc">
+  <title id="title">NODE_02 // F1 LIVE TELEMETRY HUD</title>
+  <desc id="desc">High-frequency race telemetry ingestion pipeline with deterministic lap-delta timing.</desc>
+
+  <defs>
+    <style>
+      .mono { font-family: 'JetBrains Mono', 'Fira Code', Menlo, Consolas, monospace; }
+      .sans { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+    </style>
+
+    <!-- Ambient Red Radial Glow -->
+    <radialGradient id="red-glow" cx="75%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#FF2A2A" stop-opacity="0.22"/>
+      <stop offset="40%" stop-color="#991B1B" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#0A0B0E" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Technical 20px Grid -->
+    <pattern id="grid-dots-red" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="0.8" fill="#1F2430" opacity="0.6"/>
+    </pattern>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="600" height="340" fill="#0A0B0E"/>
+
+  <!-- Ambient Glow -->
+  <rect width="600" height="340" fill="url(#red-glow)"/>
+
+  <!-- Technical Grid Overlay -->
+  <rect x="8" y="8" width="584" height="324" rx="8" fill="url(#grid-dots-red)"/>
+
+  <!-- Outer Spec Frame -->
+  <rect x="8" y="8" width="584" height="324" rx="8" fill="none" stroke="#1F2430" stroke-width="1.2"/>
+
+  <!-- Corner Registration Crosshairs -->
+  <g stroke="#FF2A2A" stroke-width="1.2" opacity="0.8">
+    <path d="M 18 18 L 18 26 M 18 18 L 26 18"/>
+    <path d="M 582 18 L 582 26 M 582 18 L 574 18"/>
+    <path d="M 18 322 L 18 314 M 18 322 L 26 322"/>
+    <path d="M 582 322 L 582 314 M 582 322 L 574 322"/>
+  </g>
+
+  <!-- Top Metadata Bar -->
+  <g class="mono" font-size="10" letter-spacing="1.2">
+    <text x="24" y="34" fill="#FF2A2A" font-weight="700">NODE_02 // TELEMETRY PIPELINE</text>
+    <circle cx="536" cy="31" r="3" fill="#10B981"/>
+    <text x="544" y="34" fill="#10B981" font-weight="700">PROD</text>
+  </g>
+  <line x1="24" y1="46" x2="576" y2="46" stroke="#1F2430" stroke-width="1"/>
+
+  <!-- Japanese Technical Subtitle (Editorial Taste) -->
+  <text x="24" y="82" class="sans" font-size="12" font-weight="500" fill="#71717A" letter-spacing="1">
+    リアルタイム遠隔測定エンジン // 60HZ DETERMINISTIC STREAM
+  </text>
+
+  <!-- Project Title -->
+  <text x="24" y="126" class="sans" font-size="32" font-weight="800" fill="#FFFFFF" letter-spacing="-0.5">
+    F1 TELEMETRY HUD
+  </text>
+
+  <!-- Pitch Statement -->
+  <text x="24" y="162" class="sans" font-size="13" font-weight="400" fill="#E4E4E7" letter-spacing="0.1">
+    High-frequency race telemetry ingestion pipeline with deterministic
+  </text>
+  <text x="24" y="182" class="sans" font-size="13" font-weight="400" fill="#E4E4E7" letter-spacing="0.1">
+    lap-delta timing, sector matrices, and tire degradation modeling.
+  </text>
+
+  <!-- Architectural Proof Tag -->
+  <g transform="translate(24, 214)">
+    <rect width="552" height="38" rx="4" fill="#180C0E" stroke="#1F2430" stroke-width="1"/>
+    <text x="14" y="24" class="mono" font-size="10.5" fill="#94A3B8">
+      PROOF: <tspan fill="#FF2A2A">60Hz canvas pipeline · Zero UI frame drops</tspan>
+    </text>
+  </g>
+
+  <!-- Bottom Hardware Spec Pills -->
+  <g transform="translate(24, 280)" class="mono" font-size="10" font-weight="600" letter-spacing="0.8">
+    <rect x="0" y="0" width="134" height="26" rx="4" fill="#111318" stroke="#1F2430" stroke-width="1"/>
+    <text x="12" y="17" fill="#FF2A2A">60HZ STREAM</text>
+
+    <rect x="142" y="0" width="128" height="26" rx="4" fill="#111318" stroke="#1F2430" stroke-width="1"/>
+    <text x="12" y="17" fill="#F3F4F6" dx="142">HTML5 CANVAS</text>
+
+    <rect x="278" y="0" width="118" height="26" rx="4" fill="#111318" stroke="#1F2430" stroke-width="1"/>
+    <text x="12" y="17" fill="#00E5FF" dx="278">PYTHON / TS</text>
+
+    <!-- Source Link Action -->
+    <text x="500" y="17" fill="#71717A" font-size="11">INSPECT ↗</text>
+  </g>
+</svg>
