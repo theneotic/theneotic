@@ -22,8 +22,9 @@ jobs:
         with:
           github_user_name: theneotic
           outputs: |
-            dist/github-snake-dark.svg?color_snake=%23FF2A2A&color_dots=%23111318,%23991B1B,%23DC2626,%23EF4444,%23FF2A2A
-            dist/github-contribution-grid-snake-dark.svg?color_snake=%23FF2A2A&color_dots=%23111318,%23991B1B,%23DC2626,%23EF4444,%23FF2A2A
+            dist/github-snake-dark.svg?color_snake=%23FF2A2A&color_dots=%231E2638,%23991B1B,%23DC2626,%23EF4444,%23FF2A2A
+            dist/github-contribution-grid-snake-dark.svg?color_snake=%23FF2A2A&color_dots=%231E2638,%23991B1B,%23DC2626,%23EF4444,%23FF2A2A
+            dist/github-contribution-grid-snake-light.svg?color_snake=%23DC2626&color_dots=%23E2E8F0,%23FCA5A5,%23F87171,%23EF4444,%23DC2626
 
       - name: Deploy Telemetry Trace to Output Branch
         uses: crazy-max/ghaction-github-pages@v5

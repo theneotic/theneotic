@@ -83,9 +83,9 @@ Every repository across this profile is engineered as verifiable proof of first-
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/theneotic/theneotic/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/theneotic/theneotic/output/github-contribution-grid-snake-dark.svg" />
-    <img alt="Telemetry Contribution Snake for theneotic" src="https://raw.githubusercontent.com/theneotic/theneotic/output/github-contribution-grid-snake-dark.svg" width="100%" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/theneotic/theneotic/output/github-contribution-grid-snake-dark.svg?v=3" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/theneotic/theneotic/output/github-contribution-grid-snake-light.svg?v=3" />
+    <img alt="Telemetry Contribution Snake for theneotic" src="https://raw.githubusercontent.com/theneotic/theneotic/output/github-contribution-grid-snake-dark.svg?v=3" width="100%" />
   </picture>
 </p>
 
