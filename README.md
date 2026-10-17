@@ -1,4 +1,10 @@
 <p align="center">
+  <a href="https://github.com/theneotic">
+    <img src="https://visitor-badge.laobi.icu/badge?page_id=theneotic.theneotic&amp;left_text=VISITORS&amp;left_color=%23111318&amp;right_color=%23FF2A2A" alt="Profile Visitors" />
+  </a>
+</p>
+
+<p align="center">
   <img src="./assets/header-schematic.svg?v=3" alt="The-Neotic // Engineering Spec Sheet &amp; Telemetry Header" width="100%" />
 </p>
 
