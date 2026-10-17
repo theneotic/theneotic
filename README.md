@@ -15,6 +15,18 @@
   <a href="#03--direct-directory"><img src="https://img.shields.io/badge/CONTACT-111318?style=flat&amp;logo=discord&amp;logoColor=FF2A2A" alt="Contact" /></a>
 </p>
 
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=c,python,java,ts,js,nodejs,react,postgres,supabase,docker,linux,git,github,vscode&amp;theme=dark" alt="Technical Toolchain" />
+  </a>
+</p>
+
+<br />
+
+<p align="center">
+  <img src="./assets/divider-spec.svg" alt="Divider Spec" width="100%" />
+</p>
+
 <br />
 
 <a id="01--verified-production-repositories"></a>
