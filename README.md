@@ -58,18 +58,6 @@ Every repository across this profile is engineered as verifiable proof of first-
   </a>
 </p>
 
-<p align="center">
-  <a href="https://github.com/theneotic/f1-telemetry-dashboard">
-    <img src="./assets/node-02-telemetry.svg?v=3" alt="Node 02 // F1 Live Telemetry HUD Hardware Unit" width="100%" />
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/theneotic/clearcut">
-    <img src="./assets/node-03-clearcut.svg?v=3" alt="Node 03 // Clearcut Vision Hardware Unit" width="100%" />
-  </a>
-</p>
-
 <br />
 
 <p align="center">
