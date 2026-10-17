@@ -4,35 +4,15 @@
 
 <p align="center">
   <a href="https://github.com/theneotic?tab=repositories"><img src="https://img.shields.io/badge/REPOSITORIES-111318?style=flat&amp;logo=git&amp;logoColor=FF2A2A" alt="Repositories" /></a>
-  <a href="#01--architectural-standards"><img src="https://img.shields.io/badge/STANDARDS-111318?style=flat&amp;logo=blueprint&amp;logoColor=00E5FF" alt="Standards" /></a>
-  <a href="#02--verified-production-repositories"><img src="https://img.shields.io/badge/PROJECTS-111318?style=flat&amp;logo=target&amp;logoColor=10B981" alt="Projects" /></a>
-  <a href="#03--telemetry-trace"><img src="https://img.shields.io/badge/TELEMETRY-111318?style=flat&amp;logo=speedtest&amp;logoColor=00E5FF" alt="Telemetry" /></a>
-  <a href="#04--direct-directory"><img src="https://img.shields.io/badge/CONTACT-111318?style=flat&amp;logo=discord&amp;logoColor=10B981" alt="Contact" /></a>
+  <a href="#01--verified-production-repositories"><img src="https://img.shields.io/badge/PROJECTS-111318?style=flat&amp;logo=target&amp;logoColor=10B981" alt="Projects" /></a>
+  <a href="#02--telemetry-trace"><img src="https://img.shields.io/badge/TELEMETRY-111318?style=flat&amp;logo=speedtest&amp;logoColor=00E5FF" alt="Telemetry" /></a>
+  <a href="#03--direct-directory"><img src="https://img.shields.io/badge/CONTACT-111318?style=flat&amp;logo=discord&amp;logoColor=FF2A2A" alt="Contact" /></a>
 </p>
 
 <br />
 
-<a id="01--architectural-standards"></a>
-## 01 // ARCHITECTURAL STANDARDS
-
-Every repository across this profile is engineered as verifiable proof of first-principles systems thinking, deterministic state logic, and zero-bloat execution. No synthetic filler or framework sprawl—only inspectable source code solving concrete architectural bottlenecks.
-
-<br />
-
-<p align="center">
-  <img src="./assets/system-proof.svg?v=3" alt="The-Neotic // Architectural Standards Spec Strip" width="100%" />
-</p>
-
-<br />
-
-<p align="center">
-  <img src="./assets/divider-spec.svg" alt="Divider Spec" width="100%" />
-</p>
-
-<br />
-
-<a id="02--verified-production-repositories"></a>
-## 02 // VERIFIED PRODUCTION REPOSITORIES
+<a id="01--verified-production-repositories"></a>
+## 01 // VERIFIED PRODUCTION REPOSITORIES
 
 > Complete inspectable source code open sourced across [github.com/theneotic?tab=repositories](https://github.com/theneotic?tab=repositories)
 
@@ -50,8 +30,8 @@ Every repository across this profile is engineered as verifiable proof of first-
 
 <br />
 
-<a id="03--telemetry-trace"></a>
-## 03 // TELEMETRY TRACE
+<a id="02--telemetry-trace"></a>
+## 02 // TELEMETRY TRACE
 
 <p align="center">
   <picture>
@@ -71,8 +51,8 @@ Every repository across this profile is engineered as verifiable proof of first-
 
 <br />
 
-<a id="04--direct-directory"></a>
-## 04 // DIRECT DIRECTORY
+<a id="03--direct-directory"></a>
+## 03 // DIRECT DIRECTORY
 
 - **Source Repositories:** [github.com/theneotic](https://github.com/theneotic?tab=repositories)
 - **Professional Network:** [linkedin.com/in/samir-siddiquix](https://www.linkedin.com/in/samir-siddiquix/)
