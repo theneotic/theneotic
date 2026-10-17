@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1060" height="130" viewBox="0 0 1060 130" role="img" aria-labelledby="title desc">
-  <title id="title">The-Neotic // Architectural Standards Spec Strip</title>
-  <desc id="desc">Horizontal engineering standards matrix documenting zero-bloat web, local AI, database pipelines, and cryptographic determinism.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="240" viewBox="0 0 640 240" role="img" aria-labelledby="title desc">
+  <title id="title">The-Neotic // Architectural Standards Matrix</title>
+  <desc id="desc">2x2 engineering standards matrix documenting zero-bloat web, local AI, database pipelines, and cryptographic determinism.</desc>
 
   <defs>
     <style>
@@ -10,57 +10,59 @@
   </defs>
 
   <!-- Canvas Background -->
-  <rect width="1060" height="130" fill="#0A0B0E"/>
+  <rect width="640" height="240" fill="#0A0B0E"/>
 
   <!-- Outer Spec Frame -->
-  <rect x="10" y="10" width="1040" height="110" rx="4" fill="#0E1015" stroke="#1F2430" stroke-width="1.2"/>
+  <rect x="6" y="6" width="628" height="228" rx="4" fill="#0D0F14" stroke="#1F2430" stroke-width="1.2"/>
 
-  <!-- Column Separators -->
-  <line x1="270" y1="18" x2="270" y2="112" stroke="#1F2430" stroke-width="1"/>
-  <line x1="530" y1="18" x2="530" y2="112" stroke="#1F2430" stroke-width="1"/>
-  <line x1="790" y1="18" x2="790" y2="112" stroke="#1F2430" stroke-width="1"/>
+  <!-- Center Cross Divider Lines -->
+  <line x1="320" y1="12" x2="320" y2="228" stroke="#1F2430" stroke-width="1"/>
+  <line x1="12" y1="120" x2="628" y2="120" stroke="#1F2430" stroke-width="1"/>
 
-  <!-- ================= COLUMN 01 ================= -->
-  <g transform="translate(26, 0)">
-    <text x="0" y="38" class="mono" font-size="10.5" font-weight="700" fill="#00E5FF" letter-spacing="1">STD_01 // ZERO-BLOAT WEB</text>
-    <text x="0" y="60" class="sans" font-size="13" font-weight="700" fill="#FFFFFF">TypeScript &amp; Vanilla JS</text>
-    <text x="0" y="78" class="sans" font-size="11.5" fill="#94A3B8">Semantic HTML5, custom CSS, 0-dep</text>
-    <g transform="translate(0, 88)">
+  <!-- Center Reticle Cross -->
+  <circle cx="320" cy="120" r="3" fill="#1F2430" stroke="#00E5FF" stroke-width="1"/>
+
+  <!-- ================= QUADRANT 01: TOP-LEFT ================= -->
+  <g transform="translate(20, 16)">
+    <text x="0" y="18" class="mono" font-size="10" font-weight="700" fill="#00E5FF" letter-spacing="1">STD_01 // ZERO-BLOAT WEB</text>
+    <text x="0" y="38" class="sans" font-size="13" font-weight="700" fill="#FFFFFF">TypeScript &amp; Vanilla JS</text>
+    <text x="0" y="56" class="sans" font-size="11" fill="#94A3B8">Semantic HTML5, custom CSS, 0-dep</text>
+    <g transform="translate(0, 68)">
       <circle cx="3" cy="6" r="3" fill="#10B981"/>
-      <text x="12" y="10" class="mono" font-size="10" font-weight="700" fill="#10B981" letter-spacing="0.5">[ 0 UNNECESSARY DEPS ]</text>
+      <text x="12" y="10" class="mono" font-size="9.5" font-weight="700" fill="#10B981" letter-spacing="0.5">[ 0 UNNECESSARY DEPS ]</text>
     </g>
   </g>
 
-  <!-- ================= COLUMN 02 ================= -->
-  <g transform="translate(286, 0)">
-    <text x="0" y="38" class="mono" font-size="10.5" font-weight="700" fill="#FF2A2A" letter-spacing="1">STD_02 // LOCAL-FIRST AI</text>
-    <text x="0" y="60" class="sans" font-size="13" font-weight="700" fill="#FFFFFF">Decoupled Python &amp; Vision</text>
-    <text x="0" y="78" class="sans" font-size="11.5" fill="#94A3B8">Local model weights, zero-cloud lag</text>
-    <g transform="translate(0, 88)">
+  <!-- ================= QUADRANT 02: TOP-RIGHT ================= -->
+  <g transform="translate(336, 16)">
+    <text x="0" y="18" class="mono" font-size="10" font-weight="700" fill="#FF2A2A" letter-spacing="1">STD_02 // LOCAL-FIRST AI</text>
+    <text x="0" y="38" class="sans" font-size="13" font-weight="700" fill="#FFFFFF">Decoupled Python &amp; Vision</text>
+    <text x="0" y="56" class="sans" font-size="11" fill="#94A3B8">Local model weights, zero-cloud lag</text>
+    <g transform="translate(0, 68)">
       <circle cx="3" cy="6" r="3" fill="#00E5FF"/>
-      <text x="12" y="10" class="mono" font-size="10" font-weight="700" fill="#00E5FF" letter-spacing="0.5">[ LOCAL EXECUTION ]</text>
+      <text x="12" y="10" class="mono" font-size="9.5" font-weight="700" fill="#00E5FF" letter-spacing="0.5">[ LOCAL EXECUTION ]</text>
     </g>
   </g>
 
-  <!-- ================= COLUMN 03 ================= -->
-  <g transform="translate(546, 0)">
-    <text x="0" y="38" class="mono" font-size="10.5" font-weight="700" fill="#10B981" letter-spacing="1">STD_03 // DATA INTEGRITY</text>
-    <text x="0" y="60" class="sans" font-size="13" font-weight="700" fill="#FFFFFF">SQL Schemas &amp; Realtime</text>
-    <text x="0" y="78" class="sans" font-size="11.5" fill="#94A3B8">Supabase channels, normalized tables</text>
-    <g transform="translate(0, 88)">
+  <!-- ================= QUADRANT 03: BOTTOM-LEFT ================= -->
+  <g transform="translate(20, 134)">
+    <text x="0" y="18" class="mono" font-size="10" font-weight="700" fill="#10B981" letter-spacing="1">STD_03 // DATA INTEGRITY</text>
+    <text x="0" y="38" class="sans" font-size="13" font-weight="700" fill="#FFFFFF">SQL Schemas &amp; Realtime</text>
+    <text x="0" y="56" class="sans" font-size="11" fill="#94A3B8">Supabase channels, normalized tables</text>
+    <g transform="translate(0, 68)">
       <circle cx="3" cy="6" r="3" fill="#10B981"/>
-      <text x="12" y="10" class="mono" font-size="10" font-weight="700" fill="#10B981" letter-spacing="0.5">[ STRICT AUDIT ]</text>
+      <text x="12" y="10" class="mono" font-size="9.5" font-weight="700" fill="#10B981" letter-spacing="0.5">[ STRICT AUDIT ]</text>
     </g>
   </g>
 
-  <!-- ================= COLUMN 04 ================= -->
-  <g transform="translate(806, 0)">
-    <text x="0" y="38" class="mono" font-size="10.5" font-weight="700" fill="#FF2A2A" letter-spacing="1">STD_04 // DETERMINISM</text>
-    <text x="0" y="60" class="sans" font-size="13" font-weight="700" fill="#FFFFFF">Cryptography &amp; Telemetry</text>
-    <text x="0" y="78" class="sans" font-size="11.5" fill="#94A3B8">WebCrypto math, 60Hz canvas streams</text>
-    <g transform="translate(0, 88)">
+  <!-- ================= QUADRANT 04: BOTTOM-RIGHT ================= -->
+  <g transform="translate(336, 134)">
+    <text x="0" y="18" class="mono" font-size="10" font-weight="700" fill="#FF2A2A" letter-spacing="1">STD_04 // DETERMINISM</text>
+    <text x="0" y="38" class="sans" font-size="13" font-weight="700" fill="#FFFFFF">Cryptography &amp; Telemetry</text>
+    <text x="0" y="56" class="sans" font-size="11" fill="#94A3B8">WebCrypto math, 60Hz canvas streams</text>
+    <g transform="translate(0, 68)">
       <circle cx="3" cy="6" r="3" fill="#FF2A2A"/>
-      <text x="12" y="10" class="mono" font-size="10" font-weight="700" fill="#FF2A2A" letter-spacing="0.5">[ INSPECTABLE SOURCE ]</text>
+      <text x="12" y="10" class="mono" font-size="9.5" font-weight="700" fill="#FF2A2A" letter-spacing="0.5">[ INSPECTABLE CODE ]</text>
     </g>
   </g>
 </svg>

@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1060" height="280" viewBox="0 0 1060 280" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="320" viewBox="0 0 800 320" role="img" aria-labelledby="title desc">
   <title id="title">The-Neotic // Engineering Spec Sheet &amp; Telemetry Header</title>
   <desc id="desc">Industrial systems architecture header with active telemetry readout, high-contrast typography, and boot sequence.</desc>
 
@@ -18,9 +18,9 @@
       .sans { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
     </style>
 
-    <!-- Technical 24px Dot Matrix Grid -->
-    <pattern id="dot-grid" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse">
-      <circle cx="2" cy="2" r="0.85" fill="#1F2430" opacity="0.85"/>
+    <!-- Technical 20px Dot Matrix Grid -->
+    <pattern id="dot-grid" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="0.8" fill="#1F2430" opacity="0.85"/>
     </pattern>
 
     <!-- Terminal Box Gradient -->
@@ -37,157 +37,127 @@
   </defs>
 
   <!-- Canvas Background -->
-  <rect width="1060" height="280" fill="#0A0B0E"/>
+  <rect width="800" height="320" fill="#0A0B0E"/>
 
   <!-- Blueprint Dot Grid Overlay -->
-  <rect x="10" y="10" width="1040" height="260" fill="url(#dot-grid)"/>
+  <rect x="8" y="8" width="784" height="304" fill="url(#dot-grid)"/>
 
   <!-- Outer Spec Frame -->
-  <rect x="10" y="10" width="1040" height="260" fill="none" stroke="#1F2430" stroke-width="1.5"/>
+  <rect x="8" y="8" width="784" height="304" fill="none" stroke="#1F2430" stroke-width="1.2"/>
 
   <!-- Industrial Corner Registration Marks (┌ ┐ └ ┘) -->
-  <g stroke="#FF2A2A" stroke-width="1.5" fill="none">
-    <!-- Top-Left -->
-    <path d="M 10 22 L 22 22 L 22 10"/>
-    <path d="M 16 16 L 16 26 M 16 16 L 26 16"/>
-    <!-- Top-Right -->
-    <path d="M 1050 22 L 1038 22 L 1038 10"/>
-    <path d="M 1044 16 L 1044 26 M 1044 16 L 1034 16"/>
-    <!-- Bottom-Left -->
-    <path d="M 10 258 L 22 258 L 22 270"/>
-    <path d="M 16 264 L 16 254 M 16 264 L 26 264"/>
-    <!-- Bottom-Right -->
-    <path d="M 1050 258 L 1038 258 L 1038 270"/>
-    <path d="M 1044 264 L 1044 254 M 1044 264 L 1034 264"/>
+  <g stroke="#FF2A2A" stroke-width="1.2" fill="none">
+    <path d="M 8 18 L 18 18 L 18 8"/>
+    <path d="M 14 14 L 14 22 M 14 14 L 22 14"/>
+    <path d="M 792 18 L 782 18 L 782 8"/>
+    <path d="M 786 14 L 786 22 M 786 14 L 778 14"/>
+    <path d="M 8 302 L 18 302 L 18 312"/>
+    <path d="M 14 306 L 14 298 M 14 306 L 22 306"/>
+    <path d="M 792 302 L 782 302 L 782 312"/>
+    <path d="M 786 306 L 786 298 M 786 306 L 778 306"/>
   </g>
 
   <!-- ================= TOP SPEC BAR ================= -->
-  <line x1="10" y1="42" x2="1050" y2="42" stroke="#1F2430" stroke-width="1"/>
+  <line x1="8" y1="36" x2="792" y2="36" stroke="#1F2430" stroke-width="1"/>
 
-  <g class="mono" font-size="11" font-weight="600" letter-spacing="1.2">
+  <g class="mono" font-size="10" font-weight="600" letter-spacing="1">
     <!-- Left Spec ID -->
-    <text x="28" y="31" fill="#71717A">SPEC.DOC // <tspan fill="#F3F4F6">THENEOTIC-CORE-2026</tspan></text>
+    <text x="24" y="25" fill="#71717A">SPEC.DOC // <tspan fill="#F3F4F6">THENEOTIC-2026</tspan></text>
 
     <!-- Center Status Indicator -->
-    <text x="375" y="31" fill="#71717A">STATUS: [ </text>
-    <circle cx="448" cy="27.5" r="3.5" fill="#10B981" class="status-pulse"/>
-    <text x="460" y="31" fill="#10B981" font-weight="700">ONLINE // ALL SYSTEMS NOMINAL</text>
-    <text x="696" y="31" fill="#71717A"> ]</text>
+    <text x="270" y="25" fill="#71717A">STATUS: [ </text>
+    <circle cx="334" cy="22" r="3" fill="#10B981" class="status-pulse"/>
+    <text x="344" y="25" fill="#10B981" font-weight="700">ONLINE // NOMINAL</text>
+    <text x="472" y="25" fill="#71717A"> ]</text>
 
-    <!-- Right System Specification -->
-    <text x="815" y="31" fill="#71717A">ARCH: <tspan fill="#F3F4F6">DISTRIBUTED // BARE-METAL</tspan></text>
+    <!-- Right Architecture -->
+    <text x="580" y="25" fill="#71717A">ARCH: <tspan fill="#F3F4F6">DISTRIBUTED // POSIX</tspan></text>
   </g>
 
   <!-- ================= MAIN LEFT BLOCK ================= -->
-  <g transform="translate(28, 0)">
+  <g transform="translate(24, 0)">
     <!-- Red Overline Tag -->
-    <text x="0" y="74" class="mono" font-size="11.5" font-weight="700" fill="#FF2A2A" letter-spacing="2">// SYSTEMS &amp; AI ARCHITECTURE</text>
+    <text x="0" y="68" class="mono" font-size="11" font-weight="700" fill="#FF2A2A" letter-spacing="1.5">// SYSTEMS &amp; AI ARCHITECTURE</text>
 
     <!-- Main Identity Header -->
-    <text x="0" y="116" class="sans" font-size="42" font-weight="800" fill="#FFFFFF" letter-spacing="-0.5">
+    <text x="0" y="108" class="sans" font-size="38" font-weight="800" fill="#FFFFFF" letter-spacing="-0.5">
       The-Neotic
-      <tspan dx="12" class="mono" font-size="20" font-weight="500" fill="#94A3B8">@theneotic</tspan>
+      <tspan dx="10" class="mono" font-size="18" font-weight="500" fill="#94A3B8">@theneotic</tspan>
     </text>
 
-    <!-- Blueprint Hairline Accent -->
-    <line x1="0" y1="128" x2="520" y2="128" stroke="#1F2430" stroke-width="1"/>
-    <rect x="0" y="127" width="56" height="2" fill="url(#red-accent)"/>
+    <!-- Hairline Accent -->
+    <line x1="0" y1="120" x2="380" y2="120" stroke="#1F2430" stroke-width="1"/>
+    <rect x="0" y="119" width="48" height="2" fill="url(#red-accent)"/>
 
-    <!-- Crisp, Bold Manifesto -->
-    <text x="0" y="154" class="sans" font-size="13.5" font-weight="500" fill="#CBD5E1" letter-spacing="0.15">
-      Building local-first AI engines, zero-dependency web primitives, and real-time telemetry.
+    <!-- Concise Manifesto -->
+    <text x="0" y="146" class="sans" font-size="13" font-weight="400" fill="#CBD5E1">
+      Building local-first AI engines, zero-dependency web primitives,
     </text>
-    <text x="0" y="176" class="sans" font-size="13.5" font-weight="500" fill="#CBD5E1" letter-spacing="0.15">
-      Verified through inspectable source code, deterministic state logic, and low-level system design.
+    <text x="0" y="166" class="sans" font-size="13" font-weight="400" fill="#CBD5E1">
+      and real-time telemetry verified through inspectable source code.
     </text>
 
-    <!-- Technical Hardware Pills (Prominently Featuring TS) -->
-    <g transform="translate(0, 204)" class="mono" font-size="11" font-weight="600" letter-spacing="0.8">
+    <!-- Technical Hardware Pills -->
+    <g transform="translate(0, 196)" class="mono" font-size="10" font-weight="600" letter-spacing="0.5">
       <!-- Pill 1: Systems -->
-      <rect x="0" y="0" width="134" height="28" rx="4" fill="#111318" stroke="#1F2430" stroke-width="1.2"/>
-      <circle cx="12" cy="14" r="3" fill="#FF2A2A"/>
-      <text x="22" y="18" fill="#F3F4F6">SYS: C / PY / JVM</text>
+      <rect x="0" y="0" width="120" height="26" rx="3" fill="#111318" stroke="#1F2430" stroke-width="1"/>
+      <circle cx="10" cy="13" r="2.5" fill="#FF2A2A"/>
+      <text x="18" y="17" fill="#F3F4F6">C / PY / JVM</text>
 
       <!-- Pill 2: Web Engine with TS -->
-      <rect x="142" y="0" width="144" height="28" rx="4" fill="#111318" stroke="#1F2430" stroke-width="1.2"/>
-      <circle cx="154" cy="14" r="3" fill="#00E5FF"/>
-      <text x="164" y="18" fill="#00E5FF">WEB: TS · 0-DEP JS</text>
+      <rect x="126" y="0" width="126" height="26" rx="3" fill="#111318" stroke="#1F2430" stroke-width="1"/>
+      <circle cx="136" cy="13" r="2.5" fill="#00E5FF"/>
+      <text x="144" y="17" fill="#00E5FF">TS · 0-DEP JS</text>
 
-      <!-- Pill 3: Data Backend -->
-      <rect x="294" y="0" width="150" height="28" rx="4" fill="#111318" stroke="#1F2430" stroke-width="1.2"/>
-      <circle cx="306" cy="14" r="3" fill="#10B981"/>
-      <text x="316" y="18" fill="#F3F4F6">DATA: SQL / REALTIME</text>
-
-      <!-- Pill 4: Architecture -->
-      <rect x="452" y="0" width="112" height="28" rx="4" fill="#111318" stroke="#1F2430" stroke-width="1.2"/>
-      <text x="462" y="18" fill="#94A3B8">ARCH: <tspan fill="#FFFFFF">LOCAL-1ST</tspan></text>
+      <!-- Pill 3: Data Stack -->
+      <rect x="258" y="0" width="122" height="26" rx="3" fill="#111318" stroke="#1F2430" stroke-width="1"/>
+      <circle cx="268" cy="13" r="2.5" fill="#10B981"/>
+      <text x="276" y="17" fill="#10B981">SQL · STREAM</text>
     </g>
+
+    <!-- Micro Spec Line -->
+    <text x="0" y="248" class="mono" font-size="9" fill="#64748B" letter-spacing="0.8">
+      CORE SPEC // 0-BLOAT GUARANTEE · DETERMINISTIC STATE
+    </text>
   </g>
 
-  <!-- ================= MAIN RIGHT BLOCK (TERMINAL TELEMETRY BOX) ================= -->
-  <g transform="translate(600, 52)">
+  <!-- ================= MAIN RIGHT BLOCK: TERMINAL HUD ================= -->
+  <g transform="translate(425, 48)">
     <!-- Terminal Outer Frame -->
-    <rect width="436" height="204" rx="4" fill="url(#term-bg)" stroke="#1F2430" stroke-width="1.2"/>
+    <rect width="350" height="250" rx="4" fill="url(#term-bg)" stroke="#1F2430" stroke-width="1"/>
 
-    <!-- Terminal Header Bar -->
-    <rect width="436" height="28" rx="4" fill="#111318"/>
-    <line x1="0" y1="28" x2="436" y2="28" stroke="#1F2430" stroke-width="1"/>
+    <!-- Terminal Top Bar -->
+    <rect width="350" height="28" rx="4" fill="#121620"/>
+    <circle cx="16" cy="14" r="3.5" fill="#FF5F56"/>
+    <circle cx="28" cy="14" r="3.5" fill="#FFBD2E"/>
+    <circle cx="40" cy="14" r="3.5" fill="#27C93F"/>
+    
+    <text x="56" y="18" class="mono" font-size="9.5" font-weight="600" fill="#94A3B8" letter-spacing="0.8">sh // telemetry-exec --target=all</text>
+    <text x="280" y="18" class="mono" font-size="9" font-weight="700" fill="#00E5FF">60Hz [LOCKED]</text>
+    <line x1="0" y1="28" x2="350" y2="28" stroke="#1F2430" stroke-width="1"/>
 
-    <!-- Window Dots -->
-    <circle cx="16" cy="14" r="3.5" fill="#FF2A2A" opacity="0.9"/>
-    <circle cx="28" cy="14" r="3.5" fill="#EAB308" opacity="0.9"/>
-    <circle cx="40" cy="14" r="3.5" fill="#10B981" opacity="0.9"/>
+    <!-- Terminal Inner Log Tree -->
+    <g class="mono" font-size="10" line-height="1.6" letter-spacing="0.4">
+      <text x="14" y="52" fill="#94A3B8">$ monolith --inspect --verify</text>
+      
+      <!-- Module 1: Oculus AI -->
+      <text x="14" y="78" fill="#64748B">├─ [<tspan fill="#10B981" font-weight="700">OK</tspan>] kernel.ai.oculus</text>
+      <text x="42" y="94" fill="#71717A" font-size="9">└─ weights: local · gaze: 12ms</text>
 
-    <!-- Terminal Title -->
-    <text x="56" y="18" class="mono" font-size="10.5" font-weight="600" fill="#94A3B8" letter-spacing="1">sh // telemetry-exec --target=all</text>
-    <text x="350" y="18" class="mono" font-size="10" font-weight="700" fill="#00E5FF" letter-spacing="1">60Hz [LOCKED]</text>
+      <!-- Module 2: Monolith Vault -->
+      <text x="14" y="120" fill="#64748B">├─ [<tspan fill="#10B981" font-weight="700">OK</tspan>] crypto.monolith_vault</text>
+      <text x="42" y="136" fill="#71717A" font-size="9">└─ deps: 0 · cipher: WebCrypto</text>
 
-    <!-- Terminal Module Tree -->
-    <g class="mono" font-size="11.5" letter-spacing="0.5">
-      <!-- Command prompt -->
-      <text x="16" y="54" fill="#94A3B8">$ <tspan fill="#FFFFFF" font-weight="700">monolith --inspect --verify</tspan></text>
+      <!-- Module 3: F1 Telemetry -->
+      <text x="14" y="162" fill="#64748B">├─ [<tspan fill="#10B981" font-weight="700">OK</tspan>] stream.f1_telemetry</text>
+      <text x="42" y="178" fill="#71717A" font-size="9">└─ pipeline: 60Hz deterministic</text>
 
-      <!-- Node 01 -->
-      <text x="16" y="80">
-        <tspan fill="#64748B">├─ </tspan>
-        <tspan fill="#10B981" font-weight="700">[OK] </tspan>
-        <tspan fill="#FFFFFF" font-weight="600">kernel.ai.oculus</tspan>
-        <tspan fill="#94A3B8" dx="14">(local_weights: mounted)</tspan>
-      </text>
+      <!-- Module 4: Clearcut Vision -->
+      <text x="14" y="204" fill="#64748B">└─ [<tspan fill="#10B981" font-weight="700">OK</tspan>] runtime.clearcut_vision</text>
+      <text x="42" y="220" fill="#71717A" font-size="9">└─ sandbox: browser-isolated</text>
 
-      <!-- Node 02 (Featuring TS/JS) -->
-      <text x="16" y="106">
-        <tspan fill="#64748B">├─ </tspan>
-        <tspan fill="#00E5FF" font-weight="700">[OK] </tspan>
-        <tspan fill="#FFFFFF" font-weight="600">crypto.vault_core</tspan>
-        <tspan fill="#00E5FF" dx="8">(ts/js | 0-dep | audited)</tspan>
-      </text>
-
-      <!-- Node 03 -->
-      <text x="16" y="132">
-        <tspan fill="#64748B">├─ </tspan>
-        <tspan fill="#10B981" font-weight="700">[OK] </tspan>
-        <tspan fill="#FFFFFF" font-weight="600">stream.f1_telemetry</tspan>
-        <tspan fill="#94A3B8" dx="8">(pipeline: 60Hz_locked)</tspan>
-      </text>
-
-      <!-- Node 04 -->
-      <text x="16" y="158">
-        <tspan fill="#64748B">└─ </tspan>
-        <tspan fill="#10B981" font-weight="700">[OK] </tspan>
-        <tspan fill="#FFFFFF" font-weight="600">runtime.fabric_jvm</tspan>
-        <tspan fill="#94A3B8" dx="12">(env: production)</tspan>
-      </text>
-
-      <!-- Awaiting instruction prompt with animated cursor -->
-      <text x="16" y="186">
-        <tspan fill="#00E5FF" font-weight="700">&gt; </tspan>
-        <tspan fill="#E4E4E7" font-weight="600">awaiting_instruction</tspan>
-        <tspan class="cursor" fill="#FF2A2A" font-weight="700">_</tspan>
-      </text>
+      <!-- Prompt Line -->
+      <text x="14" y="240" fill="#10B981" font-weight="700">&gt; <tspan fill="#F3F4F6">awaiting_instruction</tspan><tspan fill="#00E5FF" class="cursor">_</tspan></text>
     </g>
-
-    <!-- Terminal Corner Accent -->
-    <path d="M 430 196 L 430 200 L 424 200" stroke="#00E5FF" stroke-width="1.2" fill="none"/>
   </g>
 </svg>
