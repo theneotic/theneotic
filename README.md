@@ -72,18 +72,26 @@
 <a id="03--direct-directory"></a>
 ## 03 // DIRECT DIRECTORY
 
-- **Source Repositories:** [github.com/theneotic](https://github.com/theneotic?tab=repositories)
-- **Professional Network:** [linkedin.com/in/samir-siddiquix](https://www.linkedin.com/in/samir-siddiquix/)
-- **Direct Transmission:** [samirsiddiquix@gmail.com](mailto:samirsiddiquix@gmail.com)
-- **Real-Time Node:** `@alistairvalecrest` via [Discord](https://discord.gg/Zc99tAvx)
+<p align="center">
+  <a href="https://github.com/theneotic?tab=repositories">
+    <img src="https://img.shields.io/badge/SOURCE_REPOSITORIES-github.com%2Ftheneotic-111318?style=flat&amp;logo=github&amp;logoColor=FF2A2A&amp;labelColor=0A0B0E" alt="Source Repositories: github.com/theneotic" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/samir-siddiquix/">
+    <img src="https://img.shields.io/badge/PROFESSIONAL_NETWORK-linkedin.com%2Fin%2Fsamir--siddiquix-111318?style=flat&amp;logo=linkedin&amp;logoColor=00E5FF&amp;labelColor=0A0B0E" alt="Professional Network: linkedin.com/in/samir-siddiquix" />
+  </a>
+  <br />
+  <a href="mailto:samirsiddiquix@gmail.com">
+    <img src="https://img.shields.io/badge/DIRECT_TRANSMISSION-samirsiddiquix%40gmail.com-111318?style=flat&amp;logo=gmail&amp;logoColor=FF2A2A&amp;labelColor=0A0B0E" alt="Direct Transmission: samirsiddiquix@gmail.com" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://discord.gg/Zc99tAvx">
+    <img src="https://img.shields.io/badge/REAL--TIME_NODE-%40alistairvalecrest-111318?style=flat&amp;logo=discord&amp;logoColor=10B981&amp;labelColor=0A0B0E" alt="Real-Time Node: @alistairvalecrest" />
+  </a>
+</p>
 
 <br />
 
-```text
-┌──────────────────────────────────────┐
-│  The-Neotic (@theneotic)             │
-│  SYSTEMS & AI ARCHITECTURE           │
-│  BUILD: 2026.10 // 0-BLOAT // POSIX  │
-│  STATUS: VERIFIED PRODUCTION [OK]    │
-└──────────────────────────────────────┘
-```
+<p align="center">
+  <img src="./assets/terminal-signature.svg?v=1" alt="The-Neotic // Terminal Signature Console" width="100%" />
+</p>

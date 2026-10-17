@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="180" viewBox="0 0 600 180" role="img" aria-labelledby="sig-title sig-desc">
+  <title id="sig-title">The-Neotic // Terminal Signature Console</title>
+  <desc id="sig-desc">Verified production hardware terminal signature with system status and telemetry readout.</desc>
+
+  <defs>
+    <style>
+      @keyframes cursor-blink {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0; }
+      }
+      @keyframes pulse-dot {
+        0%, 100% { opacity: 1; r: 3.5; }
+        50% { opacity: 0.35; r: 2.8; }
+      }
+      .cursor { animation: cursor-blink 0.9s step-start infinite; }
+      .status-pulse { animation: pulse-dot 1.8s ease-in-out infinite; }
+      .mono { font-family: 'JetBrains Mono', 'Fira Code', Menlo, Consolas, monospace; }
+      .sans { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+    </style>
+
+    <!-- Technical 20px Dot Matrix Grid -->
+    <pattern id="sig-dot-grid" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="0.8" fill="#1F2430" opacity="0.85"/>
+    </pattern>
+
+    <!-- Terminal Box Gradient -->
+    <linearGradient id="sig-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0E121A"/>
+      <stop offset="100%" stop-color="#07080A"/>
+    </linearGradient>
+
+    <!-- Red Accent Gradient -->
+    <linearGradient id="sig-red-accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FF2A2A"/>
+      <stop offset="100%" stop-color="#FF5252"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Base Plate Frame -->
+  <rect width="600" height="180" rx="4" fill="url(#sig-bg)" stroke="#1F2430" stroke-width="1.2"/>
+
+  <!-- Blueprint Dot Grid Overlay -->
+  <rect x="4" y="4" width="592" height="172" fill="url(#sig-dot-grid)"/>
+
+  <!-- Industrial Corner Registration Marks (┌ ┐ └ ┘) -->
+  <g stroke="#FF2A2A" stroke-width="1.2" fill="none">
+    <path d="M 6 16 L 16 16 L 16 6"/>
+    <path d="M 594 16 L 584 16 L 584 6"/>
+    <path d="M 6 164 L 16 164 L 16 174"/>
+    <path d="M 594 164 L 584 164 L 584 174"/>
+  </g>
+
+  <!-- Terminal Top Header Bar -->
+  <rect x="0.6" y="0.6" width="598.8" height="28" rx="4" fill="#121620"/>
+  <rect x="0.6" y="24" width="598.8" height="5" fill="#121620"/>
+  <line x1="0" y1="28" x2="600" y2="28" stroke="#1F2430" stroke-width="1"/>
+
+  <!-- Top Bar Terminal LEDs -->
+  <circle cx="20" cy="14" r="3.5" fill="#FF5F56"/>
+  <circle cx="32" cy="14" r="3.5" fill="#FFBD2E"/>
+  <circle cx="44" cy="14" r="3.5" fill="#27C93F"/>
+
+  <!-- Top Bar Labels -->
+  <g class="mono" font-size="10" font-weight="600" letter-spacing="0.8">
+    <text x="60" y="18" fill="#71717A">SIGNATURE.SPEC // <tspan fill="#CBD5E1">POSIX.NODE</tspan></text>
+    
+    <text x="400" y="18" fill="#71717A">STATE: [ </text>
+    <circle cx="456" cy="14" r="3" fill="#10B981" class="status-pulse"/>
+    <text x="466" y="18" fill="#10B981" font-weight="700">ACTIVE</text>
+    <text x="510" y="18" fill="#71717A"> ]</text>
+  </g>
+
+  <!-- ================= TERMINAL INNER CONTENT ================= -->
+  <g transform="translate(24, 38)">
+    <!-- Identity Header Row -->
+    <text x="0" y="24" class="sans" font-size="18" font-weight="800" fill="#FFFFFF" letter-spacing="-0.3">
+      The-Neotic
+      <tspan dx="8" class="mono" font-size="12" font-weight="500" fill="#94A3B8">@theneotic</tspan>
+    </text>
+
+    <!-- Hairline Divider -->
+    <line x1="0" y1="36" x2="552" y2="36" stroke="#1F2430" stroke-width="1"/>
+    <rect x="0" y="35" width="40" height="2" fill="url(#sig-red-accent)"/>
+
+    <!-- Line 1: Systems Architecture -->
+    <g class="mono" font-size="11" letter-spacing="0.6">
+      <text x="0" y="58" fill="#71717A">DOMAIN:</text>
+      <text x="76" y="58" fill="#FF2A2A" font-weight="700">// SYSTEMS &amp; AI ARCHITECTURE</text>
+
+      <!-- Line 2: Build Spec -->
+      <text x="0" y="80" fill="#71717A">BUILD:</text>
+      <text x="76" y="80" fill="#00E5FF" font-weight="600">2026.10 // 0-BLOAT // POSIX RUNTIME</text>
+
+      <!-- Line 3: Status & Verification -->
+      <text x="0" y="102" fill="#71717A">STATUS:</text>
+      <text x="76" y="102" fill="#10B981" font-weight="700">VERIFIED PRODUCTION [OK]</text>
+
+      <!-- Line 4: Prompt / Link -->
+      <text x="0" y="124" fill="#10B981" font-weight="700">&gt; <tspan fill="#F3F4F6">transmission_open</tspan><tspan fill="#00E5FF" class="cursor">_</tspan></text>
+      <text x="360" y="124" fill="#64748B" font-size="10">END OF TRANSMISSION // 2026</text>
+    </g>
+  </g>
+</svg>
